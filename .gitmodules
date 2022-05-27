@@ -1,0 +1,6 @@
+[submodule "Bachelor-front-end"]
+	path = Bachelor-front-end
+	url = https://github.com/andrei-dascalu3/Bachelor-front-end.git
+[submodule "Bachelor-back-end"]
+	path = Bachelor-back-end
+	url = https://github.com/andrei-dascalu3/Bachelor-back-end.git
