@@ -1,4 +1,20 @@
 \chapter*{Introducere} 
 \addcontentsline{toc}{chapter}{Introducere}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis vitae et. Placerat in egestas erat imperdiet sed euismod. Urna id volutpat lacus laoreet non curabitur gravida. Blandit turpis cursus in hac habitasse platea. Eget nunc lobortis mattis aliquam faucibus. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Viverra maecenas accumsan lacus vel facilisis volutpat est. Non odio euismod lacinia at quis risus sed vulputate odio. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Etiam sit amet nisl purus in. Tortor condimentum lacinia quis vel eros donec. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Enim eu turpis egestas pretium.
+\subsection{Scopul documentului}
+Documentul de față are ca scop prezentarea problemei și a unei soluții propuse adecvate acesteia. În acest fel, se urmărește descompunerea problemei în subprobleme și detalierea acestora, ilustrarea unor soluții deja existente, analizarea aplicației web propuse, în mod sistematic, evidențiind atât detalii de abordare, arhitectură, tehnologii utilizate, implementare.
+
+\subsection{Scopul aplicației}
+Aplicația \textit{\thesistitle{}} este o soluție web ce urmărește să rezolve problema alocării studenților din anii terminali la profesorii coordonatori.
+
+Unul dintre principalele obiective este centralizarea întregului proces, de la repartizare până la alte colaborare și alte aspecte organizatorice, asigurând astfel o desfășurare bună și mai sigură. Fiind un proces anual, cu un număr semnificativ de părți implicate, este inevitabilă necesitatea de a automatiza într-o anumită măsură desfășurarea acestuia.
+
+Un obiectiv de asemenea important este simplificarea obținerii informaților de interes, atât de către studenți, cât și de profesori. Studenții au posibilitatea să afle tematicile propuse de fiecare coordonator, eventual să propună o idee proprie. Participanții pot urmări în timp real situația locurilor disponibile, precum și alte statistici.
+
+Cel de al treilea obiectiv este optimizarea repartizării prin implementarea ierarhizării de către student a opțiunilor alese sub formă de preferințe.
+
+\subsection{Modul de implementare}
+Soluția se prezintă sub formă de aplicație web ce se împarte în două "sub-aplicații".
+
+Partea de \textit{Front-End} este implementată în Angular și găzduită pe un server Firebase.
+Partea de \textit{Back-End} este implementată în Java Spring Boot și găzduită utilizând serviciile Google Cloud. Această parte cuprinde atât comunicarea cu Front-End-ul prin intermediul request-urilor, dar și procesare sub forma implementării unui algoritm de stable-matching (stable-marriage) adecvat problemei.

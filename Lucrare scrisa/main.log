@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  5 APR 2022 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  5 JUN 2022 23:20
 entering extended mode
 **./main.tex
 (main.tex
@@ -362,7 +362,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
-<images//logoFii.png, id=59, 193.47281pt x 188.95593pt>
+<images//logoFii.png, id=63, 193.47281pt x 188.95593pt>
 File: images//logoFii.png Graphic file (type png)
 <use images//logoFii.png>
 Package pdftex.def Info: images//logoFii.png  used on input line 13.
@@ -372,16 +372,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 22.
+(Font)              <20.74> on input line 24.
 
 [1
 
 {C:/Users/andre/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images//logoF
-ii.png>]) (front/titlepage.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 14.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+ii.png>]) (front/titlepage.texpdfTeX warning (ext4): destination with the same 
+identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.35 \end{titlepage}
@@ -415,23 +412,43 @@ l.38     \input{front/declaration2}
  (chapters/motivation.tex
 [1
 
-]) (chapters/introduction.tex [2
-
-]) (chapters/chapter1.tex [3
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 1.
+) (chapters/introduction.tex [2
 
 ]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 4.
+
+
+Overfull \hbox (7.93933pt too wide) in paragraph at lines 10--11
+\OT1/ppl/m/n/12 ti-zare p[]an[]a la alte co-la-bo-rare []i alte as-pecte or-ga-
+ni-za-torice, asi-gur[]and ast-fel o desf[]a[]urare
+ []
+
+
+Overfull \hbox (7.01598pt too wide) in paragraph at lines 17--18
+[]\OT1/ppl/m/n/12 Solu[]ia se pre-zint[]a sub form[]a de aplica[]ie web ce se [
+]mparte []n dou[]a "sub-aplica[]ii". 
+ []
+
+) [3
+
+] (chapters/chapter1.tex [4]
 Capitolul 1.
-) (chapters/chapter2.tex [4
+) (chapters/chapter2.tex [5
 
-] [5]
+] [6]
 Capitolul 2.
-[6
+[7
 
-]) (chapters/chapter3.tex [7]
+]) (chapters/chapter3.tex [8]
 Capitolul 3.
-[8
+[9
 
-]) (chapters/conclusions.tex [9]) (chapters/bibliography.tex [10
+]) (chapters/conclusions.tex [10]) (chapters/bibliography.tex [11
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
@@ -440,18 +457,24 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ))
-[11
+[12
 
 ] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 344544578EB62E1553E900B58707032F;2069.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 97ECDD72263873A2F2DCCCF5C3582DF9;2241
+(rerunfilecheck)             After:  3280ADBF8E5F1FEED867CA8DFBDF3DE5;2564.
  ) 
 Here is how much of TeX's memory you used:
- 9922 strings out of 480198
- 146130 string characters out of 2878856
- 452092 words of memory out of 3000000
- 26289 multiletter control sequences out of 15000+200000
- 558476 words of font info for 84 fonts, out of 3000000 for 9000
+ 9929 strings out of 480198
+ 146223 string characters out of 2878856
+ 451095 words of memory out of 3000000
+ 26291 multiletter control sequences out of 15000+200000
+ 559151 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,6n,66p,1156b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
@@ -459,9 +482,9 @@ Here is how much of TeX's memory you used:
 <C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.p
 fb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri
 8a.pfb>
-Output written on main.pdf (15 pages, 92348 bytes).
+Output written on main.pdf (16 pages, 101947 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
