@@ -1,11 +1,53 @@
-\chapter{Titlul primului capitol}
+\chapter{Teorii și tehnologii utilizate}
 
-Diam sit amet nisl suscipit adipiscing bibendum. Aliquet lectus proin nibh nisl condimentum id. Urna duis convallis convallis tellus id interdum velit laoreet. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Volutpat ac tincidunt vitae semper. Urna cursus eget nunc scelerisque viverra mauris in aliquam. Aliquam id diam maecenas ultricies. Molestie a iaculis at erat. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Consequat interdum varius sit amet. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Maecenas sed enim ut sem viverra aliquet eget sit. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit.
+În acest capitol sunt prezentate în primul rând tehnologiile utilizate în implementarea aplicației. În cea de a doua parte este evidențiat în mare parte particularități ale algoritmicii utilizate în determinarea unei alocări optime specifice problemei, în alte cuvinte algoritmul de \textit{stable matching} (\textit{stable marriage}).
 
-\section{Titlul secțiunii 1}
+\section{Angular}
+\begin{figure}[H]
+	\includegraphics[width=0.3\textwidth, left]{Angular-logo.png}
+%	\caption{\url{https://www.vectorlogo.zone/logos/angular/angular-ar21.png}}
+\end{figure}
 
-Id donec ultrices tincidunt arcu non sodales neque. Integer eget aliquet nibh praesent. Euismod in pellentesque massa placerat duis ultricies lacus sed. Mauris ultrices eros in cursus turpis massa. Integer quis auctor elit sed vulputate mi. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Suscipit tellus mauris a diam maecenas. Ultrices eros in cursus turpis massa tincidunt. Tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Sed risus pretium quam vulputate dignissim suspendisse in. Donec adipiscing tristique risus nec feugiat in fermentum posuere. A lacus vestibulum sed arcu non odio euismod lacinia at.
+\textbf{Angular} este un framework de JavaScript scris în TypeScript și menținut de Google. Framework-ul a fost dezvoltat în principal pentru crearea aplicațiilor web \textit{single-page}, într-o manieră ce ușurează mentenanța și dezvoltarea ulterioară.
 
-\section{Titlul secțiunii 2}
+\subsection{Scurt istoric}
+În 2010, Miško Hevery, un angajat la Google la acel timp, a lansat un proiect cu numele \textit{AngularJS} care a fost apreciat în mare măsură de comunitate. Între anii 2014-2015 a avut loc o reîmprospăatare majoră a framework-ului însemnând de fapt o rescriere majoră a acestuia. Noua versiune avea să fie numită simplu Angular. Au urmat câțiva ani de tranziție deoarece multe proiecte deja în producție erau utilizau AngularJS și  trebuiau refactorizate. În acest moment, Angular este cel mai folosit framework de front-end, în specialde dezvoltatorii de la Google și de către start-up-uri. Exemple de companii recunoscute ce folosesc Angular sunt Microsoft, Gmail, PayPal, Forbes.
 
-Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Non sodales neque sodales ut etiam sit. In hendrerit gravida rutrum quisque non. Diam quam nulla porttitor massa id neque aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Cras fermentum odio eu feugiat pretium nibh ipsum. Egestas integer eget aliquet nibh praesent tristique magna. Porttitor eget dolor morbi non arcu risus quis varius quam. Gravida rutrum quisque non tellus orci. Diam volutpat commodo sed egestas egestas.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Angular-crunchbase-newspng.png}
+	\caption{\url{https://www.moveoapps.com/blog/how-to-use-angular-development/}}
+\end{figure}
+
+\subsection{Particularități}
+Motivul alegerii Angular pe partea de front-end este reprezentat de o serie de caracteristici.
+
+Un astfel de motiv este \textit{arhitectura bazată pe componenta}, fiind astfel o formă de programare orientată pe obiect. Utilizatorul crează în mod uzual clase corespunzătoare componentelor ce conțin și un șablon HTML (\textit{eng.} HTML template). Pentru simplificare, Angular oferă și opțiunea de "injectare" a serviciilor \textit{custom} sau \textit{in-built} într-o componentă ce utilizează aceste funcționalități. În acest fel, utilizatorul poate reutiliza, înlocui, modifica componente în diverse locuri, obținâându-se astfel un UI (User Interface) modularizat.
+
+Un alt motiv este modul de încărcare a paginii web. Angular folosește \textit{lazy loading} ce permite încărcarea instantanee a website-urilor, prin afișarea doar a componentelor cerute și necesare utilizatorului, în timp ce celelalte sunt pregătite în fundal pentru alte eventualități.
+
+\textit{Dependency injection} reprezintă un al treilea motiv, un design pattern ce permite împărțirea lucrului între diferite servicii, distribuind în mod eficient sarcinile. Prin inițializarea dependențelor, Angular reușește să reducă în mod considerabil codul de tip \textit{boilerplate} (fragmente similare de cod des utilizat între care există mici diferențe) și să extindă mai ușor o astfel de aplicație.
+
+Framework-ul are trei tipuri de \textit{dependency injections}:
+\begin{enumerate}
+	\item Constructor injection
+	\item Setter injection
+	\item Interface injection
+\end{enumerate}
+
+Din punct de vedere al arhitecturii, Angular este în totalitate un framework MVC (model-view-controller), după cum se observă în figura următoare.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Angular_Architecture.png}
+	\caption{\url{https://www.ngdevelop.tech/wp-content/uploads/2017/12/Angular_Architecture.png}}
+\end{figure}
+
+\section{Spring Boot}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth, left]{Spring-boot-logo.jpg}
+%	\caption{\url{https://dev.to/maddy/spring-boot-architecture-547i}}
+\end{figure}
+
+\section{Algoritmica}
