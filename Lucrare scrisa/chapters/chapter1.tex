@@ -78,6 +78,27 @@ Un alt detaliu este utilizarea \textit{Spring Starter Dependencies} ce facilitea
 \textit{Spring Boot Actuator} oferă utilitare de producție aplicației. Actuator este utilizat în mare parte pentru a obține informații de funcționare despre o aplicație în rulare (metrice, info, dump, env, etc.), cu ajutorul HTTp endpoints și JMX beans.
 Ultima versiune, Spring Boot 2.x Actuator, suportă și modele CRUD.
 
+\section{Cloud Firestore}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth, left]{Cloud-Firestore.png}
+\end{figure}
+
+\textit{Cloud Firestore} este un serviciu oferit de Firebase și este o bază de date în cloud, NoSQL, pentru a reține și sincroniza date între dispozitive folosind \textit{listeners} în timp real. Firestore oferă de altfel și suport pentru o integrare facilă cu serviciile Google Cloud.
+
+\subsection{Particularități}
+Fiind un model NoSQL, Firestore reține datele sub formă de \textit{documente} ce conțin câmpuri mapate la valori. Documentele formează la rândul lor diferite \textit{colecții}, containere folosite pentru organizarea datelor și crearea ușoară a cererilor (queries). Documentele pot reprezenta un număr mare de tipuri de date, de la string-uri până la tipuri complexe precum anumite obiecte. De asemenea, orice instanță, document, are posibilitatea să aibă subcolecții. Spre exemplu, în cazul de față, orice student ar putea avea drept subcolecție o listă de profesori reprezentând preferințele sale.
+
+\subsection{Avantaje}
+Cererile în cazul Cloud Firestore pentru crearea și primirea de date sunt expresive, flexibile și eficiente. Datele pot fi primite ușor sub forme de documente, iar posibilitatea de creare a subcolecțiilor ajută după caz la evitarea operațiilor costisitoare de join.
+
+De asemenea, există opțiuni de sortare, filtrare și paginare a datelor primite.
+
+Un avantaj important este reprezentat de \textit{realtime listeners} ce permit obținerea numai a informațiilor nou apărute, fără a extrage întreaga colecție de fiecare dată.
+
+\subsection{Aplicabilitate}
+Cloud Firestore are rolul în cazul acestei aplicații în principal de a reține participanții la procesul de repartizare, adică utilizatorii reprezentați de studenți și profesori, sub formă de documente. Fiecare document are o subcolecție de obiecte corespunzătoare reprezentând preferințele sale. Este de menționat că această subcolecție este sortată, fiind absolut necesară cunoașterea ierarhiei de opțiuni. Pe lânga preferințe, utilizatorii au și câmpuri specifice unei astfel de aplicații web, precum \textit{username}, \textit{email}, date administrative.
+
 \section{Algoritmica}
 \subsection{Problema stable matching (SMP)}
 Problema constă în găsirea unei potriviri stabile (stable match) între două mulțimi de aceași dimensiune de elemente, luând în considerare o ierarhie a preferințelor. Astfel, o soluție este o bijecție între elementele primei mulțimi și cele din cea de a doua. O potrivire nu este stabilă dacă:
@@ -97,4 +118,25 @@ Algoritmul implică un număr de iterații. În prima iterație, fiecare element
 În iterațiile ulterioare, fiecare element din A necuplat încă încearcă să se cupleze cu următoarea opțiune din preferințele (necuplată sau nu). Elementele din B pot schimba partenerul curent cu cel propus în cazul în care este deja cuplată dacă îl preferă pe cel din urmă.
 
 Procesul se repetă până când există o bijecție între cele două mulțimi.
- 
+
+\subsection{Instanța problemei prezente}
+În cazul problemei distribuirii studenților la profesorii coordonatori de licență, fiecare student primind implicit o temă unică de licență, există atât asemănări cu \textit{SMP} (Stable Marriage Problem), cât și o serie de deosebiri particulare care necesită o adaptare a algoritmului de rezolvare.
+
+\textbf{Asemănări}
+
+Există două mulțimi ce trebuie cuplate într-un mod stabil. Cuplajul este realizat tinând cont și în această instanță de o serie de preferințe. Ambele tipuri de participanți au o ierarhizare a preferințelor sale. Din punct de vedere al temelor de licență, cel mai probabil există o relație de bijecție între studenți și tematicile primite sau propuse și acceptate.
+
+\textbf{Deosebiri}
+
+O primă deosebire observată este că mulțimile nu au un număr egal de elemente. În mod natural, mulțimea studenților este semnificativ mai mare decât cea a profesorilor.
+
+În al doilea rând, relația dintre cele două mulțimi nu este de bijecție, ci mai degrabă una injectivă. Fiecare student trebuie să aibă la finalul procesului de repartizare atribuit un profesor coordonator de licență. Cu alte cuvinte,
+
+\[\forall \: stud,\: unde\: stud \in Studs,\: \exists \: prof \in Profs,\] 
+\[BTD(stud)=prof\]
+
+unde \textit{BTD} = Bachelor Thesis Distributor, funcție ce repartizează fiecare student unui profesor, \textit{Studs} = mulțimea studenților, \textit{Profs} = mulțimea profesorilor.
+
+În consecință, este inevitabil ca un profesor să aibă sub coordonare mai mulți studenți, o altă particularitate fiind însă că un profesor are o limită prestabilite de astfel de studenți.
+
+La finalul procesului de repartizare, studenții care nu au o preferință sunt repartizați aleatoriu sau după un anumit criteriu arbitrar profesorilor care mai au locuri libere.
