@@ -16,5 +16,5 @@ Cel de al treilea obiectiv este optimizarea repartizării prin implementarea ier
 \subsection{Modul de implementare}
 Soluția se prezintă sub formă de aplicație web ce se împarte în două "sub-aplicații".
 
-Partea de \textit{Front-End} este implementată în Angular și găzduită pe un server Firebase.
-Partea de \textit{Back-End} este implementată în Java Spring Boot și găzduită utilizând serviciile Google Cloud. Această parte cuprinde atât comunicarea cu Front-End-ul prin intermediul request-urilor, dar și procesare sub forma implementării unui algoritm de stable-matching (stable-marriage) adecvat problemei.
+Partea de \textit{Front-End} este implementată în Angular.
+Partea de \textit{Back-End} este implementată în Java Spring Boot. Această parte cuprinde atât comunicarea cu Front-End-ul prin intermediul request-urilor, dar și procesare sub forma implementării unui algoritm de stable-matching (stable-marriage) adecvat problemei. În cazul de față, a fost ales un algoritm de stable-matching with ties, utilizat pentru probleme NP-hard. Acest lucru presupune o optimizare a soluției deoarece permite părților să efectueze alegeri cu același grad de importanță. Mai precis, în contextul de față, un student poate realiza o ordine a preferințelor profesorilor, în unele cazuri cu o anumită indiferență în ideea că studentul poate prefera atât o opțiune, cât și alta cu același grad.
