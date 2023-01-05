@@ -1,0 +1,30 @@
+\chapter{Descrierea problemei}
+Lucrarea de față propune să rezolve o instanță a unei probleme des întâlnite în cotidian și descrise în literatra de specialitate, problema \textit{Stable marriage} numită și \textit{Stable matching}. În cazul de față, există două mulțimi participante. În primiul rând profesorii, mai precis propunerile individuale ale acestora pentru proiectul final de licență, și studenții. Fiecare student stabilește o ierarhie a preferințelor (unde sunt ordonate propunerile alese de ei; precizări și detalieri ale acestora urmează a fi făcute).
+
+De asemenea, profesorii au opțiunea de a încheia un acord cu un student sau mai mulți pentru realizarea unui anumit proiect fără a participa la etapa de stabilire a unui \textit{stable matching} pe cele două mulțimi.
+
+Într-un final, după efectuarea algoritmului, fiecărui student îi este atribuit în mod optim, cu alte cuvinte cu o satisfacere cât mai mare a preferințelor, un proiect pentru lucrarea sa de licență.
+
+\section{Scopul aplicației}
+
+În consecință, aplicația propusă are atât scopul de a eficientiza propcesul de repartizare a studenților la profesorii de licență (respectiv tezele propuse de aceștia), un proces complex și periodic specific oricărei facultăți, dar și scopul de a optimiza această repartiție, în ideea de a distribui proiectele studenților după abilitățile și preferințele lor, încurajând astfel o dedicare și elaborare cât mai adecvate din partea studenților în realizarea lucrării finale.
+
+\section{Scopul documentului}
+
+Documentul prezent descrie o soluție a problemei evidențiate anterior sub forma unei aplicații web ce utilizează o formă a algoritmului de \textit{Stable Matching} adaptat contextului. Sunt ilustrate părțile componente ale aplicației și justificată alegerea anumitor implementări și tehnologii. De asemenea, acest document urmărește și familiarizarea eventualilor utilizatori cu aplicația.
+
+\section{Structura documentului}
+
+Pentru început, a fost realizată o descriere generală a aplicației subliniind câteva particularități în al doilea capitol, \textbf{Arhitectura aplicației. Detalii}.
+Capitolul ulterior, \textbf{Teorii și tehnologii utilizate}, explică alegerea anumitor framework-uri precum și avantajele acestora, plus necesitatea unui algoritm de rezolvare a problemei de \textit{Stable matching} (un scurt istoric a fost realizate pentru familiarizarea cu aceste tehnologii și teorii).
+Urmează patru capitole care surprind în detaliu părțile componente ale aplicației, \textbf{Baza de date}, \textbf{Front-end-ul}, \textbf{Back-end-ul}, \textbf{Algoritmulul de repartizare}.
+În final, capitolul \textbf{Indicații de utilizare} prezintă sugestii în legătură cu navigarea și folosirea aplicației, nu fără a sublinia în cele din urmă câteva \textbf{Concluzii} și posibile idei de dezvoltare și îmbunătățire a aplicației în viitor.
+
+\section{Contribuții}
+Aplicația \textbf{\thesistitle} este compusă după cum a fost precizat din două părți principale.
+
+Front-end-ul realizat în Angular a fost adaptat de către mine pentru o cât mai facilă utilizare atât de către profesori, cât și de către studenți, urmărindu-se un aspect cât de cât minimalist și clar.
+
+Back-end-ul în Spring Boot conține o parte de autentificare și autorizare simplă, dar eficientă și suficientă prin intermediul JWT (JSON Web Token).
+
+O contribuție majoră o reprezintă însă algoritmul de determinare a soluției, componentă tot a back-end-ului. Este de precizat că s-a luat în calcul o versiune a problemei de \textit{Stable matching with ties} (Stable Matching cu indeferență) ce conduce la îmbunătățirea rezultatului.

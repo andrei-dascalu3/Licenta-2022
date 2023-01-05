@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  4 JAN 2023 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  5 JAN 2023 16:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -422,7 +422,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
-<images//logoFii.png, id=159, 193.47281pt x 188.95593pt>
+<images//logoFii.png, id=167, 193.47281pt x 188.95593pt>
 File: images//logoFii.png Graphic file (type png)
 <use images//logoFii.png>
 Package pdftex.def Info: images//logoFii.png  used on input line 13.
@@ -470,7 +470,7 @@ tion with the same identifier (name{page.}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
-l.25 ...numberline {4}Baza de date}{16}{chapter.4}
+l.27 ...numberline {4}Baza de date}{16}{chapter.4}
                                                   % [3
 
 ])
@@ -502,22 +502,34 @@ Overfull \hbox (7.01598pt too wide) in paragraph at lines 17--18
 
 ) [3
 
-] (chapters/chapter1.tex [4]
+] (chapters/1_descrierea_problemei.tex [4]
 Capitolul 1.
-) (chapters/chapter2.tex [5
+[5
 
 ]
-Capitolul 2.
-[6
+Overfull \hbox (2.40755pt too wide) in paragraph at lines 18--22
+\OT1/ppl/b/n/12 Te-o-rii []i teh-no-lo-gii uti-li-zate\OT1/ppl/m/n/12 , ex-plic
+[]a ale-ge-rea anu-mi-tor framework-uri pre-cum []i avan-
+ []
 
-]) (chapters/chapter3.tex [7]
+) (chapters/2_arhitectura_aplicatiei.tex
+Overfull \hbox (2.35867pt too wide) in paragraph at lines 30--1
+\OT1/ppl/m/n/12 de \OT1/ppl/m/it/12 Sta-ble mat-ching with ties \OT1/ppl/m/n/12
+ (Sta-ble Mat-ching cu indeferen[][]a) ce con-duce la []mbun[]at[]a[]irea
+ []
+
+[6]
+Capitolul 2.
+[7
+
+]) (chapters/3_teorii_tehnologii_utilizate.tex [8]
 Capitolul 3.
-<images//Angular-logo.png, id=251, 1204.5pt x 602.25pt>
+<images//Angular-logo.png, id=266, 1204.5pt x 602.25pt>
 File: images//Angular-logo.png Graphic file (type png)
 <use images//Angular-logo.png>
 Package pdftex.def Info: images//Angular-logo.png  used on input line 7.
 (pdftex.def)             Requested size: 136.57462pt x 68.28778pt.
-<images//Angular-crunchbase-newspng.png, id=252, 770.88pt x 807.015pt>
+<images//Angular-crunchbase-newspng.png, id=267, 770.88pt x 807.015pt>
 File: images//Angular-crunchbase-newspng.png Graphic file (type png)
 <use images//Angular-crunchbase-newspng.png>
 Package pdftex.def Info: images//Angular-crunchbase-newspng.png  used on input 
@@ -533,81 +545,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--19
 . com / blog /
  []
 
-[8
+[9
 
- <./images//Angular-logo.png>] [9pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.3.1}) has been already used, duplicate ignored
+ <./images//Angular-logo.png>] [10pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.27 U
       n alt motiv este modul de încărcare a paginii web. Angular foloseșt...
  <./images//Angular-crunchbase-newspng.png>]
-<images//Angular_Architecture.png, id=268, 2407.99625pt x 1318.9275pt>
+<images//Angular_Architecture.png, id=282, 2407.99625pt x 1318.9275pt>
 File: images//Angular_Architecture.png Graphic file (type png)
 <use images//Angular_Architecture.png>
 Package pdftex.def Info: images//Angular_Architecture.png  used on input line 4
 2.
 (pdftex.def)             Requested size: 364.19667pt x 199.48085pt.
-<images//Spring-boot-logo.jpg, id=271, 602.25pt x 316.18124pt>
+<images//Spring-boot-logo.jpg, id=285, 602.25pt x 316.18124pt>
 File: images//Spring-boot-logo.jpg Graphic file (type jpg)
 <use images//Spring-boot-logo.jpg>
 Package pdftex.def Info: images//Spring-boot-logo.jpg  used on input line 49.
 (pdftex.def)             Requested size: 136.57462pt x 71.70218pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.52 
       <./images//Angular_Architecture.png>]
-<images//Spring-ranking.png, id=282, 1040.88875pt x 587.19376pt>
+<images//Spring-ranking.png, id=296, 1040.88875pt x 587.19376pt>
 File: images//Spring-ranking.png Graphic file (type png)
 <use images//Spring-ranking.png>
 Package pdftex.def Info: images//Spring-ranking.png  used on input line 64.
 (pdftex.def)             Requested size: 364.19667pt x 205.4492pt.
- [11 <./images//Spring-boot-logo.jpg>]
-<images//Cloud-Firestore.png, id=290, 1303.87125pt x 401.5pt>
-File: images//Cloud-Firestore.png Graphic file (type png)
-<use images//Cloud-Firestore.png>
-Package pdftex.def Info: images//Cloud-Firestore.png  used on input line 84.
-(pdftex.def)             Requested size: 136.57462pt x 42.05153pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-3}) has been already used, duplicate ignored
+ [12 <./images//Spring-boot-logo.jpg>] [13pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.3.3}) has been already used, duplicate igno
+red
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.86 
-      <./images//Spring-ranking.png (PNG copy)>]
-Overfull \hbox (13.14708pt too wide) in paragraph at lines 100--101
-[]\OT1/ppl/m/n/12 Cloud Fi-res-tore are ro-lul []n ca-zul aces-tei aplica[]ii 
-[]n prin-ci-pal de a re[]ine participan[]ii
- []
-
-[13 <./images//Cloud-Firestore.png (PNG copy)>] [14]) (chapters/chapter7.tex
-Overfull \hbox (11.80357pt too wide) in paragraph at lines 142--1
+l.84 V
+      ersiunea de Spring Boot este 2.7.6. <./images//Spring-ranking.png (PNG co
+py)>] [14]
+Overfull \hbox (11.80357pt too wide) in paragraph at lines 129--130
 []\OT1/ppl/m/n/12 La fi-na-lul pro-ce-su-lui de re-par-ti-zare, studen[]ii care
  nu au o preferin[][]a sunt repartiza[]i
  []
 
-[15]
+) (chapters/4_baza_de_date.tex [15] [16]
 Capitolul 4.
-[16
+[17
 
-]) (chapters/chapter4.tex [17]
+]) (chapters/5_front-end.tex [18]
 Capitolul 5.
-[18
+[19
 
-]) (chapters/chapter5.tex [19]
+]) (chapters/6_back-end.tex [20]
 Capitolul 6.
-[20
+[21
 
-]) (chapters/chapter6.tex [21]
+]) (chapters/7_algoritm.tex [22]
 Capitolul 7.
-[22
+[23
 
-]) (chapters/chapter8.tex [23]
+]) (chapters/8_indicatii.tex [24]
 Capitolul 8.
-) [24
+) [25
 
-] (chapters/conclusions.tex [25]) (chapters/bibliography.tex [26
+] (chapters/conclusions.tex [26]) (chapters/bibliography.tex [27
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
@@ -616,20 +618,26 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ))
-[27
+[28
 
 ] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FF952484D1EB668FC2222F2ECF83ECDB;5342.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: BD770C568232A59D15A110F7CF178365;5620
+(rerunfilecheck)             After:  D85E1AC90866FCF7E27A2D2093A283CD;5850.
  ) 
 Here is how much of TeX's memory you used:
- 11206 strings out of 480198
- 168024 string characters out of 2878856
- 476327 words of memory out of 3000000
- 27457 multiletter control sequences out of 15000+200000
- 560731 words of font info for 89 fonts, out of 3000000 for 9000
+ 11205 strings out of 480198
+ 168160 string characters out of 2878856
+ 475330 words of memory out of 3000000
+ 27453 multiletter control sequences out of 15000+200000
+ 559666 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,66p,1156b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,7n,66p,1172b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
 2.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -639,9 +647,9 @@ amsfonts/cm/cmsy10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type
 pe1/urw/palatino/uplb8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts
 /type1/urw/palatino/uplr8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (32 pages, 524431 bytes).
+Output written on main.pdf (33 pages, 423962 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 348 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 
