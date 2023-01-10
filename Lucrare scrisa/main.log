@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  5 JAN 2023 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  10 JAN 2023 18:23
 entering extended mode
 **./main.tex
 (main.tex
@@ -309,7 +309,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@roff=\dimen167
 ))
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3
-1.
+2.
  (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
@@ -321,24 +321,24 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -396,7 +396,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 32.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -410,9 +410,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count276
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -422,7 +422,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
-<images//logoFii.png, id=175, 193.47281pt x 188.95593pt>
+<images//logoFii.png, id=187, 193.47281pt x 188.95593pt>
 File: images//logoFii.png Graphic file (type png)
 <use images//logoFii.png>
 Package pdftex.def Info: images//logoFii.png  used on input line 13.
@@ -458,13 +458,13 @@ b/n/12 5001103226752\OT1/ppl/m/n/12 ,
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40     \input{front/declaration1}
+l.41     \input{front/declaration1}
                                     [1] (front/declaration2.tex)pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.41     \input{front/declaration2}
+l.42     \input{front/declaration2}
                                     [2] (main.tocpdfTeX warning (ext4): destina
 tion with the same identifier (name{page.}) has been already used, duplicate ig
 nored
@@ -520,7 +520,7 @@ Overfull \hbox (2.35867pt too wide) in paragraph at lines 30--1
 
 [6]
 Capitolul 2.
-<images//Thesis Matcher-App architecture.drawio.png, id=267, 598.235pt x 556.07
+<images//Thesis Matcher-App architecture.drawio.png, id=282, 598.235pt x 556.07
 75pt>
 File: images//Thesis Matcher-App architecture.drawio.png Graphic file (type png
 )
@@ -538,12 +538,12 @@ l.1 \chapter
             {Teorii și tehnologii utilizate} <./images//Thesis Matcher-App arc
 hitecture.drawio.png>]
 Capitolul 3.
-<images//Angular-logo.png, id=279, 1204.5pt x 602.25pt>
+<images//Angular-logo.png, id=294, 1204.5pt x 602.25pt>
 File: images//Angular-logo.png Graphic file (type png)
 <use images//Angular-logo.png>
 Package pdftex.def Info: images//Angular-logo.png  used on input line 7.
 (pdftex.def)             Requested size: 136.57462pt x 68.28778pt.
-<images//Angular-crunchbase-newspng.png, id=280, 770.88pt x 807.015pt>
+<images//Angular-crunchbase-newspng.png, id=295, 770.88pt x 807.015pt>
 File: images//Angular-crunchbase-newspng.png Graphic file (type png)
 <use images//Angular-crunchbase-newspng.png>
 Package pdftex.def Info: images//Angular-crunchbase-newspng.png  used on input 
@@ -568,13 +568,13 @@ ame identifier (name{figure.3.1}) has been already used, duplicate ignored
 l.27 U
       n alt motiv este modul de încărcare a paginii web. Angular foloseșt...
  <./images//Angular-crunchbase-newspng.png>]
-<images//Angular_Architecture.png, id=295, 2407.99625pt x 1318.9275pt>
+<images//Angular_Architecture.png, id=310, 2407.99625pt x 1318.9275pt>
 File: images//Angular_Architecture.png Graphic file (type png)
 <use images//Angular_Architecture.png>
 Package pdftex.def Info: images//Angular_Architecture.png  used on input line 4
 2.
 (pdftex.def)             Requested size: 364.19667pt x 199.48085pt.
-<images//Spring-boot-logo.jpg, id=298, 602.25pt x 316.18124pt>
+<images//Spring-boot-logo.jpg, id=313, 602.25pt x 316.18124pt>
 File: images//Spring-boot-logo.jpg Graphic file (type jpg)
 <use images//Spring-boot-logo.jpg>
 Package pdftex.def Info: images//Spring-boot-logo.jpg  used on input line 49.
@@ -585,7 +585,7 @@ Package pdftex.def Info: images//Spring-boot-logo.jpg  used on input line 49.
                                                   
 l.52 
       <./images//Angular_Architecture.png>]
-<images//Spring-ranking.png, id=309, 1040.88875pt x 587.19376pt>
+<images//Spring-ranking.png, id=324, 1040.88875pt x 587.19376pt>
 File: images//Spring-ranking.png Graphic file (type png)
 <use images//Spring-ranking.png>
 Package pdftex.def Info: images//Spring-ranking.png  used on input line 64.
@@ -605,47 +605,67 @@ Overfull \hbox (11.80357pt too wide) in paragraph at lines 129--130
 
 ) (chapters/4_baza_de_date.tex [15] [16]
 Capitolul 4.
+<images//DB_diagram.png, id=357, 782.925pt x 681.54625pt>
+File: images//DB_diagram.png Graphic file (type png)
+<use images//DB_diagram.png>
+Package pdftex.def Info: images//DB_diagram.png  used on input line 11.
+(pdftex.def)             Requested size: 455.24411pt x 396.29546pt.
 [17
 
-]) (chapters/5_front-end.tex [18]
+]
+<images//user_model.png, id=363, 170.6375pt x 204.765pt>
+File: images//user_model.png Graphic file (type png)
+<use images//user_model.png>
+Package pdftex.def Info: images//user_model.png  used on input line 23.
+(pdftex.def)             Requested size: 182.09486pt x 218.52771pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.26 
+      <./images//DB_diagram.png>] [19pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.4.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.37 
+      <./images//user_model.png>]) (chapters/5_front-end.tex [20]
 Capitolul 5.
-[19
-
-]) (chapters/6_back-end.tex [20]
-Capitolul 6.
 [21
 
-]) (chapters/7_algoritm.tex [22]
-Capitolul 7.
+]) (chapters/6_back-end.tex [22]
+Capitolul 6.
 [23
 
-]) (chapters/8_indicatii.tex [24]
-Capitolul 8.
-) [25
+]) (chapters/7_algoritm.tex [24]
+Capitolul 7.
+[25
 
-] (chapters/conclusions.tex [26]) (chapters/bibliography.tex [27
+]) (chapters/8_indicatii.tex [26]
+Capitolul 8.
+) [27
+
+] (chapters/conclusions.tex [28]) (main.bbl [29
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
-.
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/ppl/m/n/12 When to use sql vs. no-sql.  []$\OT1/pcr/m/n/12 https : / / i
+ntegrant . com / blog /
+ []
 
-(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-))
-[28
+) [30
 
 ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D85E1AC90866FCF7E27A2D2093A283CD;5850.
+(rerunfilecheck)             Checksum: 78ED635EC1BDC04F57D134BC2C547185;6210.
  ) 
 Here is how much of TeX's memory you used:
- 11214 strings out of 480198
- 168514 string characters out of 2878856
- 475330 words of memory out of 3000000
- 27460 multiletter control sequences out of 15000+200000
- 559666 words of font info for 87 fonts, out of 3000000 for 9000
+ 11216 strings out of 480198
+ 168540 string characters out of 2878856
+ 475393 words of memory out of 3000000
+ 27455 multiletter control sequences out of 15000+200000
+ 559112 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,66p,996b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,7n,66p,993b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
 2.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -655,9 +675,9 @@ amsfonts/cm/cmsy10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type
 pe1/urw/palatino/uplb8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts
 /type1/urw/palatino/uplr8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (33 pages, 450904 bytes).
+Output written on main.pdf (35 pages, 498830 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 380 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 414 words of extra memory for PDF output out of 10000 (max. 10000000)
 
