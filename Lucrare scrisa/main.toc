@@ -32,17 +32,23 @@
 \contentsline {subsubsection}{Tipuri}{19}{section*.4}%
 \contentsline {subsection}{\numberline {4.1.2}ROLE\_ADMIN}{20}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Preferințele}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Propunerile}{20}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Acordurile}{20}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Front-end}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Detalii de implementare}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Precizări}{22}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Back-end}{23}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Autentificare}{23}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Abordare}{24}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Algoritmul de repartizare}{25}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Descrierea particularităților}{25}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Implementare}{26}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Indicații de utilizare}{27}{chapter.8}%
-\contentsline {chapter}{Concluzii}{29}{chapter*.5}%
-\contentsline {chapter}{Bibliografie}{30}{chapter*.6}%
+\contentsline {section}{\numberline {4.3}Propunerile}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Acordurile}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Lucrul pe partea de back-end cu baza de date}{22}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Hibernate}{23}{subsection.4.5.1}%
+\contentsline {subsubsection}{Ce este Hibernate}{23}{section*.5}%
+\contentsline {subsubsection}{Funcționalitatea Hibernate}{23}{section*.6}%
+\contentsline {subsubsection}{Avantaje ale Hibernate}{23}{section*.7}%
+\contentsline {section}{\numberline {4.6}Generarea datelor}{25}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Front-end}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Detalii de implementare}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Precizări}{28}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Back-end}{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Autentificare}{29}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Abordare}{30}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Algoritmul de repartizare}{31}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Descrierea particularităților}{31}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Implementare}{32}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Indicații de utilizare}{33}{chapter.8}%
+\contentsline {chapter}{Concluzii}{35}{chapter*.8}%
+\contentsline {chapter}{Bibliografie}{36}{chapter*.9}%

@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TexmakerSession quickmode="3">
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/chapter4.tex" line="1" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/chapter5.tex" line="10" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/chapter3.tex" line="126" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/chapter8.tex" line="6" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\front\macros.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\chapters\chapter1.tex" line="1" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/chapter6.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/chapter7.tex" line="4" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/chapter2.tex" line="5" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="true" bookmark1="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\chapters\motivation.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\chapters\introduction.tex" line="19" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\main.tex" line="37" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/bibliography.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/conclusions.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/3_teorii_tehnologii_utilizate.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/5_front-end.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/2_arhitectura_aplicatiei.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/1_descrierea_problemei.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/6_back-end.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/4_baza_de_date.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/7_algoritm.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
-    <document hasfocus="false" bookmark1="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/8_indicatii.tex" line="0" bookmark2="0" master="false" bookmark3="0"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/4_baza_de_date.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/7_algoritm.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/6_back-end.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/1_descrierea_problemei.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/3_teorii_tehnologii_utilizate.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/5_front-end.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/2_arhitectura_aplicatiei.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\front\macros.tex" bookmark2="0" master="false" bookmark1="0" line="5" hasfocus="false"/>
+    <document bookmark3="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\chapters\introduction.tex" bookmark2="0" master="false" bookmark1="0" line="19" hasfocus="false"/>
+    <document bookmark3="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\main.tex" bookmark2="0" master="false" bookmark1="0" line="37" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/bibliography.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/conclusions.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/8_indicatii.tex" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="false"/>
+    <document bookmark3="0" file="D:\Facultate\Licenta\Licenta-2022\Lucrare scrisa\chapters\motivation.tex" bookmark2="0" master="false" bookmark1="0" line="4" hasfocus="false"/>
+    <document bookmark3="0" file="D:/Facultate/Licenta/Licenta-2022/Lucrare scrisa/chapters/myrefs.bib" bookmark2="0" master="false" bookmark1="0" line="0" hasfocus="true"/>
 </TexmakerSession>

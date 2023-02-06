@@ -1,5 +1,15 @@
 \begin{thebibliography}{1}
 
+\bibitem{hibernate2}
+Learn hibernate tutorial - javatpoint.
+\newblock \url{https://www.javatpoint.com/hibernate-tutorial}.
+\newblock (Accessed on 01/11/2023).
+
+\bibitem{hibernate1}
+What is hibernate? definition from theserverside.
+\newblock \url{https://www.theserverside.com/definition/Hibernate}.
+\newblock (Accessed on 01/11/2023).
+
 \bibitem{sql1}
 When to use sql vs. nosql.
 \newblock \url{https://integrant.com/blog/when-to-use-sql-vs-nosql/}.
