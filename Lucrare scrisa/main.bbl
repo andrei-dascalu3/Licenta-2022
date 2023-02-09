@@ -1,5 +1,14 @@
 \begin{thebibliography}{1}
 
+\bibitem{component1}
+Angular - component.
+\newblock \url{https://angular.io/api/core/Component}.
+\newblock (Accessed on 02/07/2023).
+
+\bibitem{angular-stats}
+How to use angular development in 2022.
+\newblock \url{https://www.moveoapps.com/blog/how-to-use-angular-development/}.
+
 \bibitem{hibernate2}
 Learn hibernate tutorial - javatpoint.
 \newblock \url{https://www.javatpoint.com/hibernate-tutorial}.
