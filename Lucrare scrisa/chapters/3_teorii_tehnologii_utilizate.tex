@@ -1,4 +1,4 @@
-\chapter{Teorii și tehnologii utilizate}
+\chapter{Tehnologii utilizate}
 
 În acest capitol sunt prezentate în primul rând tehnologiile utilizate în implementarea aplicației. În cea de a doua parte este evidențiat în mare parte particularități ale algoritmicii utilizate în determinarea unei alocări optime specifice problemei, în alte cuvinte algoritmul de \textit{stable matching} (\textit{stable marriage}).
 
@@ -86,47 +86,9 @@ Versiunea de Spring Boot este 2.7.6.
 \section{MySQL}
 \subsection{Baza de date}
 
-\section{Algoritmica}
-\subsection{Problema stable matching (SMP)}
-Problema constă în găsirea unei potriviri stabile (stable match) între două mulțimi de aceași dimensiune de elemente, luând în considerare o ierarhie a preferințelor. Astfel, o soluție este o bijecție între elementele primei mulțimi și cele din cea de a doua. O potrivire nu este stabilă dacă:
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-\begin{enumerate}
-	\item Există un element $\alpha$ în mulțimea întâi care preferă un anumit element $\beta$ din cea de a doua mulțime în detrimentul unui element din a doua mulțime deja cuplat.
-	\item $\beta$ preferă $\alpha$ în detrimentul elementului cu care $\beta$ deja este cuplat.
-\end{enumerate}
-
-Cea mai întâlnită formă a problemei este \textit{stable marriage problem}. Fie \textit{n} bărbați și \textit{n} femei, fiecare persoană având o ierarhizare a tuturor membrilor de gen opus în funcție de preferințe. 
-
-Prima soluție a fost prezentată în 1962 de către David Gale și Lloyd Shapley care au demonstrat că pentru orice număr de participanți, există o soluție pentru a face toate cuplurile stabile.
-
-\subsection{Algoritmul Gale-Shapley}
-Algoritmul implică un număr de iterații. În prima iterație, fiecare element din prima mulțime A încearcă cuplarea cu prima sa obțiune din mulțimea B. Elementele din B sunt cuplate inițial cu elementul pretendent pe care îl preferă cel mai mult.
-
-În iterațiile ulterioare, fiecare element din A necuplat încă încearcă să se cupleze cu următoarea opțiune din preferințele (necuplată sau nu). Elementele din B pot schimba partenerul curent cu cel propus în cazul în care este deja cuplată dacă îl preferă pe cel din urmă.
-
-Procesul se repetă până când există o bijecție între cele două mulțimi.
-
-\subsection{Instanța problemei prezente}
-În cazul problemei distribuirii studenților la profesorii coordonatori de licență, fiecare student primind implicit o temă unică de licență, există atât asemănări cu \textit{SMP} (Stable Marriage Problem), cât și o serie de deosebiri particulare care necesită o adaptare a algoritmului de rezolvare.
-
-\textbf{Asemănări}
-
-Există două mulțimi ce trebuie cuplate într-un mod stabil. Cuplajul este realizat tinând cont și în această instanță de o serie de preferințe. Ambele tipuri de participanți au o ierarhizare a preferințelor sale. Din punct de vedere al temelor de licență, cel mai probabil există o relație de bijecție între studenți și tematicile primite sau propuse și acceptate.
-
-\textbf{Deosebiri}
-
-O primă deosebire observată este că mulțimile nu au un număr egal de elemente. În mod natural, mulțimea studenților este semnificativ mai mare decât cea a profesorilor.
-
-În al doilea rând, relația dintre cele două mulțimi nu este de bijecție, ci mai degrabă una injectivă. Fiecare student trebuie să aibă la finalul procesului de repartizare atribuit un profesor coordonator de licență. Cu alte cuvinte,
-
-\[\forall \: stud,\: unde\: stud \in Studs,\: \exists \: prof \in Profs,\] 
-\[BTD(stud)=prof\]
-
-unde \textit{BTD} = Bachelor Thesis Distributor, funcție ce repartizează fiecare student unui profesor, \textit{Studs} = mulțimea studenților, \textit{Profs} = mulțimea profesorilor.
-
-În consecință, este inevitabil ca un profesor să aibă sub coordonare mai mulți studenți, o altă particularitate fiind însă că un profesor are o limită prestabilite de astfel de studenți.
-
-La finalul procesului de repartizare, studenții care nu au o preferință sunt repartizați aleatoriu sau după un anumit criteriu arbitrar profesorilor care mai au locuri libere.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 \section{Resurse externe}
 Datele necesare dezvoltării și testării aplicației printre care se numără studenții, profesorii, preferințele, propunerile (tematici generale sau proiecte particularizate) au fost generate cu ajutorul API-ului \textit{Mockaroo}.

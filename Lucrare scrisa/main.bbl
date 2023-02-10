@@ -5,6 +5,14 @@ Angular - component.
 \newblock \url{https://angular.io/api/core/Component}.
 \newblock (Accessed on 02/07/2023).
 
+\bibitem{angular-lifecycle}
+Angular - lifecycle hooks.
+\newblock \url{https://angular.io/guide/lifecycle-hooks}.
+
+\bibitem{angular-routes}
+Angular - using angular routes in a single-page application.
+\newblock \url{https://angular.io/guide/router-tutorial}.
+
 \bibitem{angular-stats}
 How to use angular development in 2022.
 \newblock \url{https://www.moveoapps.com/blog/how-to-use-angular-development/}.
@@ -23,5 +31,11 @@ What is hibernate? definition from theserverside.
 When to use sql vs. nosql.
 \newblock \url{https://integrant.com/blog/when-to-use-sql-vs-nosql/}.
 \newblock (Accessed on 01/10/2023).
+
+\bibitem{assignment}
+Ulrich Bauer.
+\newblock Assignment problem with constraints.
+\newblock Master's thesis, Technische Universität München Fakultät für
+  Informatik, 2005.
 
 \end{thebibliography}

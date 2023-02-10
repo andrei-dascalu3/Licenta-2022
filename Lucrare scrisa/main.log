@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  9 FEB 2023 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  10 FEB 2023 21:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -309,7 +309,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@roff=\dimen167
 ))
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3
-2.
+3.
  (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
@@ -321,24 +321,24 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -396,7 +396,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -410,9 +410,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count276
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -422,7 +422,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
-<images//logoFii.png, id=235, 193.47281pt x 188.95593pt>
+<images//logoFii.png, id=227, 193.47281pt x 188.95593pt>
 File: images//logoFii.png Graphic file (type png)
 <use images//logoFii.png>
 Package pdftex.def Info: images//logoFii.png  used on input line 13.
@@ -458,26 +458,26 @@ b/n/12 5001103226752\OT1/ppl/m/n/12 ,
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41     \input{front/declaration1}
+l.42     \input{front/declaration1}
                                     [1] (front/declaration2.tex)pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.42     \input{front/declaration2}
+l.43     \input{front/declaration2}
                                     [2] (main.tocpdfTeX warning (ext4): destina
 tion with the same identifier (name{page.}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
-l.27 ... problemei prezente}{16}{subsection.3.4.3}
+l.25 ...numberline {4}Baza de date}{16}{chapter.4}
                                                   % [3
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 ...{8}Indicații de utilizare}{42}{chapter.8}
+l.62 ...line {chapter}{Concluzii}{42}{chapter*.10}
                                                   % [4])
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -519,7 +519,7 @@ Overfull \hbox (2.40755pt too wide) in paragraph at lines 18--22
 
 ) (chapters/2_arhitectura_aplicatiei.tex [6] [7]
 Capitolul 2.
-<images//Thesis Matcher-App architecture.drawio.png, id=350, 598.235pt x 556.07
+<images//Thesis Matcher-App architecture.drawio.png, id=340, 598.235pt x 556.07
 75pt>
 File: images//Thesis Matcher-App architecture.drawio.png Graphic file (type png
 )
@@ -534,15 +534,15 @@ ed on input line 12.
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.1 \chapter
-            {Teorii și tehnologii utilizate} <./images//Thesis Matcher-App arc
-hitecture.drawio.png>]
+            {Tehnologii utilizate} <./images//Thesis Matcher-App architecture.d
+rawio.png>]
 Capitolul 3.
-<images//Angular-logo.png, id=361, 1204.5pt x 602.25pt>
+<images//Angular-logo.png, id=351, 1204.5pt x 602.25pt>
 File: images//Angular-logo.png Graphic file (type png)
 <use images//Angular-logo.png>
 Package pdftex.def Info: images//Angular-logo.png  used on input line 7.
 (pdftex.def)             Requested size: 136.57462pt x 68.28778pt.
-<images//Angular-crunchbase-newspng.png, id=362, 770.88pt x 807.015pt>
+<images//Angular-crunchbase-newspng.png, id=352, 770.88pt x 807.015pt>
 File: images//Angular-crunchbase-newspng.png Graphic file (type png)
 <use images//Angular-crunchbase-newspng.png>
 Package pdftex.def Info: images//Angular-crunchbase-newspng.png  used on input 
@@ -556,7 +556,7 @@ ame identifier (name{figure.3.1}) has been already used, duplicate ignored
                                                   
 l.28 
       <./images//Angular-crunchbase-newspng.png>]
-<images//Angular_Architecture.png, id=375, 2407.99625pt x 1318.9275pt>
+<images//Angular_Architecture.png, id=365, 2407.99625pt x 1318.9275pt>
 File: images//Angular_Architecture.png Graphic file (type png)
 <use images//Angular_Architecture.png>
 Package pdftex.def Info: images//Angular_Architecture.png  used on input line 4
@@ -568,7 +568,7 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<images//Spring-boot-logo.jpg, id=378, 602.25pt x 316.18124pt>
+<images//Spring-boot-logo.jpg, id=368, 602.25pt x 316.18124pt>
 File: images//Spring-boot-logo.jpg Graphic file (type jpg)
 <use images//Spring-boot-logo.jpg>
 Package pdftex.def Info: images//Spring-boot-logo.jpg  used on input line 49.
@@ -580,7 +580,7 @@ Package pdftex.def Info: images//Spring-boot-logo.jpg  used on input line 49.
                                                   
 l.52 
       <./images//Angular_Architecture.png>]
-<images//Spring-ranking.png, id=390, 1040.88875pt x 587.19376pt>
+<images//Spring-ranking.png, id=380, 1040.88875pt x 587.19376pt>
 File: images//Spring-ranking.png Graphic file (type png)
 <use images//Spring-ranking.png>
 Package pdftex.def Info: images//Spring-ranking.png  used on input line 64.
@@ -592,39 +592,33 @@ red
                                                   
 l.84 V
       ersiunea de Spring Boot este 2.7.6. <./images//Spring-ranking.png (PNG co
-py)>] [15]
-Overfull \hbox (11.80357pt too wide) in paragraph at lines 129--130
-[]\OT1/ppl/m/n/12 La fi-na-lul pro-ce-su-lui de re-par-ti-zare, studen[]ii care
- nu au o preferin[][]a sunt repartiza[]i
- []
-
-) (chapters/4_baza_de_date.tex [16] [17]
+py)>]) (chapters/4_baza_de_date.tex [15]
 Capitolul 4.
-<images//DB_diagram.png, id=423, 784.9325pt x 706.64pt>
+<images//DB_diagram.png, id=400, 784.9325pt x 706.64pt>
 File: images//DB_diagram.png Graphic file (type png)
 <use images//DB_diagram.png>
 Package pdftex.def Info: images//DB_diagram.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24411pt x 409.8407pt.
-[18
+[16
 
 ]
-<images//user_model.png, id=429, 176.66pt x 248.93pt>
+<images//user_model.png, id=406, 176.66pt x 248.93pt>
 File: images//user_model.png Graphic file (type png)
 <use images//user_model.png>
 Package pdftex.def Info: images//user_model.png  used on input line 23.
 (pdftex.def)             Requested size: 136.57462pt x 192.44775pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.26 
-      <./images//DB_diagram.png>] [20pdfTeX warning (ext4): destination with th
+      <./images//DB_diagram.png>] [18pdfTeX warning (ext4): destination with th
 e same identifier (name{figure.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.39 
       <./images//user_model.png>]
-<images//preference_model.png, id=443, 135.50626pt x 138.5175pt>
+<images//preference_model.png, id=419, 135.50626pt x 138.5175pt>
 File: images//preference_model.png Graphic file (type png)
 <use images//preference_model.png>
 Package pdftex.def Info: images//preference_model.png  used on input line 51.
@@ -642,13 +636,13 @@ Overfull \hbox (22.99931pt too wide) in paragraph at lines 57--58
 /m/n/12 care este de ti-pul BI-GINT []i in-dic[]a in-vers propor[]ional
  []
 
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.61 \section
              {Propunerile} <./images//preference_model.png>]
-<images//proposal_model.png, id=449, 172.645pt x 204.765pt>
+<images//proposal_model.png, id=427, 172.645pt x 204.765pt>
 File: images//proposal_model.png Graphic file (type png)
 <use images//proposal_model.png>
 Package pdftex.def Info: images//proposal_model.png  used on input line 72.
@@ -660,13 +654,13 @@ Overfull \hbox (52.32718pt too wide) in paragraph at lines 76--77
 12 description\OT1/ppl/m/n/12 )
  []
 
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.77 
       <./images//proposal_model.png>]
-<images//accord_model.png, id=455, 133.49875pt x 160.6pt>
+<images//accord_model.png, id=433, 133.49875pt x 160.6pt>
 File: images//accord_model.png Graphic file (type png)
 <use images//accord_model.png>
 Package pdftex.def Info: images//accord_model.png  used on input line 85.
@@ -677,23 +671,23 @@ Overfull \hbox (48.00719pt too wide) in paragraph at lines 91--92
  aju-to-rul Spring Boot, interac[]ioneaz[]a
  []
 
-<images//hibernate-logo.png, id=456, 602.25pt x 160.6pt>
+<images//hibernate-logo.png, id=434, 602.25pt x 160.6pt>
 File: images//hibernate-logo.png Graphic file (type png)
 <use images//hibernate-logo.png>
 Package pdftex.def Info: images//hibernate-logo.png  used on input line 96.
 (pdftex.def)             Requested size: 136.57462pt x 36.42015pt.
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.99 
       <./images//accord_model.png>]
-<images//orm.jpg, id=465, 559.08875pt x 153.57375pt>
+<images//orm.jpg, id=443, 559.08875pt x 153.57375pt>
 File: images//orm.jpg Graphic file (type jpg)
 <use images//orm.jpg>
 Package pdftex.def Info: images//orm.jpg  used on input line 106.
 (pdftex.def)             Requested size: 136.57462pt x 37.51457pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -711,7 +705,7 @@ Overfull \hbox (21.98122pt too wide) in paragraph at lines 126--127
 rul \OT1/pcr/m/n/12 application.properties
  []
 
-<images//application-properties.jpg, id=481, 869.2475pt x 207.77625pt>
+<images//application-properties.jpg, id=459, 869.2475pt x 207.77625pt>
 File: images//application-properties.jpg Graphic file (type jpg)
 <use images//application-properties.jpg>
 Package pdftex.def Info: images//application-properties.jpg  used on input line
@@ -723,13 +717,13 @@ Overfull \hbox (23.17982pt too wide) in paragraph at lines 134--135
 ing Boot este ne-ce-sar[]a ad[]augarea
  []
 
-<images//hibernate-dependency.jpg, id=482, 284.86424pt x 52.39575pt>
+<images//hibernate-dependency.jpg, id=460, 284.86424pt x 52.39575pt>
 File: images//hibernate-dependency.jpg Graphic file (type jpg)
 <use images//hibernate-dependency.jpg>
 Package pdftex.def Info: images//hibernate-dependency.jpg  used on input line 1
 38.
 (pdftex.def)             Requested size: 455.24411pt x 83.73976pt.
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -741,7 +735,7 @@ l.145
 l.145 
        <./images//application-properties.jpg> <./images//hibernate-dependency.j
 pg>]
-<images//populating-config-class.jpg, id=490, 287.27325pt x 182.48175pt>
+<images//populating-config-class.jpg, id=467, 287.27325pt x 182.48175pt>
 File: images//populating-config-class.jpg Graphic file (type jpg)
 <use images//populating-config-class.jpg>
 Package pdftex.def Info: images//populating-config-class.jpg  used on input lin
@@ -754,33 +748,33 @@ Overfull \hbox (58.18388pt too wide) in paragraph at lines 154--156
 12 professorProb\OT1/ppl/m/n/12 )
  []
 
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 0}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.163 Î
         n cazul de față, numărul total de utilizatori a fost ales \textbf...
- <./images//populating-config-class.jpg>]) (chapters/5_front-end.tex [27]
+ <./images//populating-config-class.jpg>]) (chapters/5_front-end.tex [25]
 Capitolul 5.
-<images//matching-page.jpg, id=500, 1156.32pt x 564.30824pt>
+<images//matching-page.jpg, id=478, 1156.32pt x 564.30824pt>
 File: images//matching-page.jpg Graphic file (type jpg)
 <use images//matching-page.jpg>
 Package pdftex.def Info: images//matching-page.jpg  used on input line 19.
 (pdftex.def)             Requested size: 455.24411pt x 222.1631pt.
-[28
+[26
 
 ]
-<images//auth-page.jpg, id=505, 416.757pt x 141.52875pt>
+<images//auth-page.jpg, id=483, 416.757pt x 141.52875pt>
 File: images//auth-page.jpg Graphic file (type jpg)
 <use images//auth-page.jpg>
 Package pdftex.def Info: images//auth-page.jpg  used on input line 31.
 (pdftex.def)             Requested size: 227.62206pt x 77.299pt.
-<images//my-profile-page.jpg, id=506, 820.86674pt x 433.62pt>
+<images//my-profile-page.jpg, id=484, 820.86674pt x 433.62pt>
 File: images//my-profile-page.jpg Graphic file (type jpg)
 <use images//my-profile-page.jpg>
 Package pdftex.def Info: images//my-profile-page.jpg  used on input line 39.
 (pdftex.def)             Requested size: 227.62206pt x 120.23503pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -791,17 +785,17 @@ l.42
                                                   
 l.42 
       <./images//matching-page.jpg> <./images//auth-page.jpg>]
-<images//professors-page.jpg, id=513, 804.606pt x 436.63126pt>
+<images//professors-page.jpg, id=491, 804.606pt x 436.63126pt>
 File: images//professors-page.jpg Graphic file (type jpg)
 <use images//professors-page.jpg>
 Package pdftex.def Info: images//professors-page.jpg  used on input line 49.
 (pdftex.def)             Requested size: 227.62206pt x 123.52177pt.
-<images//proposals-page.jpg, id=514, 831.105pt x 263.7855pt>
+<images//proposals-page.jpg, id=492, 831.105pt x 263.7855pt>
 File: images//proposals-page.jpg Graphic file (type jpg)
 <use images//proposals-page.jpg>
 Package pdftex.def Info: images//proposals-page.jpg  used on input line 55.
 (pdftex.def)             Requested size: 227.62206pt x 72.24539pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -818,18 +812,18 @@ l.60
 l.60 
       <./images//my-profile-page.jpg> <./images//professors-page.jpg> <./images
 //proposals-page.jpg>]
-<images//preferences-page.jpg, id=522, 811.23074pt x 364.9635pt>
+<images//preferences-page.jpg, id=500, 811.23074pt x 364.9635pt>
 File: images//preferences-page.jpg Graphic file (type jpg)
 <use images//preferences-page.jpg>
 Package pdftex.def Info: images//preferences-page.jpg  used on input line 65.
 (pdftex.def)             Requested size: 273.14923pt x 122.88306pt.
-<images//professor-proposals-page.jpg, id=523, 814.242pt x 322.806pt>
+<images//professor-proposals-page.jpg, id=501, 814.242pt x 322.806pt>
 File: images//professor-proposals-page.jpg Graphic file (type jpg)
 <use images//professor-proposals-page.jpg>
 Package pdftex.def Info: images//professor-proposals-page.jpg  used on input li
 ne 77.
 (pdftex.def)             Requested size: 273.14923pt x 108.28967pt.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -841,17 +835,17 @@ l.82
 l.82 
       <./images//preferences-page.jpg> <./images//professor-proposals-page.jpg>
 ]
-<images//accords-page.jpg, id=531, 800.9925pt x 221.02576pt>
+<images//accords-page.jpg, id=508, 800.9925pt x 221.02576pt>
 File: images//accords-page.jpg Graphic file (type jpg)
 <use images//accords-page.jpg>
 Package pdftex.def Info: images//accords-page.jpg  used on input line 85.
 (pdftex.def)             Requested size: 273.14923pt x 75.37372pt.
-<images//add-user-page.jpg, id=532, 798.5835pt x 324.0105pt>
+<images//add-user-page.jpg, id=509, 798.5835pt x 324.0105pt>
 File: images//add-user-page.jpg Graphic file (type jpg)
 <use images//add-user-page.jpg>
 Package pdftex.def Info: images//add-user-page.jpg  used on input line 95.
 (pdftex.def)             Requested size: 273.14923pt x 110.8246pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -862,11 +856,6 @@ l.106
                                                   
 l.106 
        <./images//accords-page.jpg> <./images//add-user-page.jpg>]
-
-LaTeX Warning: Citation `angular-lifecycle' on page 33 undefined on input line 
-109.
-
-
 Overfull \hbox (10.17175pt too wide) in paragraph at lines 109--110
 []\OT1/ppl/m/n/12 Fiecare com-po-nent[]a are un ci-clu de via[][]a (li-fe-cy-cl
 e) care []ncepe odat[]a cu instan[]ierea
@@ -878,16 +867,12 @@ Overfull \hbox (13.32639pt too wide) in paragraph at lines 109--110
 rilor []n view []i []n pro-priet[]a[]ile instan[]ei
  []
 
-<images//user-list-on-init.jpg, id=541, 290.2845pt x 139.11975pt>
+<images//user-list-on-init.jpg, id=519, 290.2845pt x 139.11975pt>
 File: images//user-list-on-init.jpg Graphic file (type jpg)
 <use images//user-list-on-init.jpg>
 Package pdftex.def Info: images//user-list-on-init.jpg  used on input line 115.
 
 (pdftex.def)             Requested size: 273.14923pt x 130.90843pt.
-
-LaTeX Warning: Citation `angular-routes' on page 33 undefined on input line 123
-.
-
 
 Overfull \hbox (8.46674pt too wide) in paragraph at lines 123--124
 \OT1/ppl/m/n/12 toate func[]ionalit[]a[]ile exist[]a []ntr-o sin-gur[]a pa-gin
@@ -901,60 +886,56 @@ a dis-pune de aceast[]a func[]ionalitate,
  []
 
 
-LaTeX Warning: Citation `angular-routes' on page 33 undefined on input line 125
-.
-
-
 Overfull \hbox (20.45532pt too wide) in paragraph at lines 125--126
 \OT1/ppl/m/n/12 De-fi-ni-rea este re-a-li-zat[]a []n ma-nier[]a ie-rar-hic[]a,
  fi-e-care rut[]a put[]and avea o list[]a de descenden[]i.
  []
 
-[33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 0}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.126 
        <./images//user-list-on-init.jpg>]
-<images//proposals-routes.jpg, id=547, 263.18324pt x 264.99pt>
+<images//proposals-routes.jpg, id=530, 263.18324pt x 264.99pt>
 File: images//proposals-routes.jpg Graphic file (type jpg)
 <use images//proposals-routes.jpg>
 Package pdftex.def Info: images//proposals-routes.jpg  used on input line 129.
 (pdftex.def)             Requested size: 227.62206pt x 229.19298pt.
-<images//auth-service.jpg, id=548, 245.11575pt x 348.1005pt>
+<images//auth-service.jpg, id=531, 245.11575pt x 348.1005pt>
 File: images//auth-service.jpg Graphic file (type jpg)
 <use images//auth-service.jpg>
 Package pdftex.def Info: images//auth-service.jpg  used on input line 141.
 (pdftex.def)             Requested size: 182.09486pt x 258.60484pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.144 
        <./images//proposals-routes.jpg>]
-<images//proposal-resolver.jpg, id=554, 338.4645pt x 157.7895pt>
+<images//proposal-resolver.jpg, id=537, 338.4645pt x 157.7895pt>
 File: images//proposal-resolver.jpg Graphic file (type jpg)
 <use images//proposal-resolver.jpg>
 Package pdftex.def Info: images//proposal-resolver.jpg  used on input line 155.
 
 (pdftex.def)             Requested size: 227.62206pt x 106.11807pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.158 
        <./images//auth-service.jpg>]
-<images//auth-guard.jpg, id=561, 355.92975pt x 292.09125pt>
+<images//auth-guard.jpg, id=544, 355.92975pt x 292.09125pt>
 File: images//auth-guard.jpg Graphic file (type jpg)
 <use images//auth-guard.jpg>
 Package pdftex.def Info: images//auth-guard.jpg  used on input line 165.
 (pdftex.def)             Requested size: 227.62206pt x 186.79958pt.
 
 
-LaTeX Warning: Citation `angular-td-forms' on page 36 undefined on input line 1
+LaTeX Warning: Citation `angular-td-forms' on page 34 undefined on input line 1
 71.
 
-[36pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -965,7 +946,7 @@ l.172
                                                   
 l.172 
        <./images//proposal-resolver.jpg> <./images//auth-guard.jpg>]
-<images//auth-form.jpg, id=569, 362.5545pt x 181.8795pt>
+<images//auth-form.jpg, id=552, 362.5545pt x 181.8795pt>
 File: images//auth-form.jpg Graphic file (type jpg)
 <use images//auth-form.jpg>
 Package pdftex.def Info: images//auth-form.jpg  used on input line 175.
@@ -976,74 +957,84 @@ Overfull \hbox (4.71101pt too wide) in paragraph at lines 189--190
 t con-stru-ite uti-liz[]and enum
  []
 
-) (chapters/6_back-end.tex [37pdfTeX warning (ext4): destination with the same 
+) (chapters/6_back-end.tex [35pdfTeX warning (ext4): destination with the same 
 identifier (name{figure.5.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.1 \chapter
             {Back-end} <./images//auth-form.jpg>]
 Capitolul 6.
+[36
+
+]) (chapters/7_algoritm.tex [37]
+Capitolul 7.
+
+Overfull \hbox (2.62228pt too wide) in paragraph at lines 3--4
+\OT1/ppl/m/n/12 Cerin[]a este rea-par-ti-za-rea op-tim[]a a pro-pu-ne-ri-lor c[
+]atre studen[]i []n func[]ie de preferin[]ele
+ []
+
 [38
 
-]) (chapters/7_algoritm.tex [39]
-Capitolul 7.
-[40
-
-]) (chapters/8_indicatii.tex [41]
+]) (chapters/8_indicatii.tex [39]
 Capitolul 8.
-) [42
+) [40
 
-] (chapters/conclusions.tex [43]) (main.bbl [44
+] (chapters/conclusions.tex [41]) (main.bbl [42
 
 ]
-Underfull \hbox (badness 3803) in paragraph at lines 13--16
+Underfull \hbox (badness 3803) in paragraph at lines 21--24
 []\OT1/ppl/m/n/12 Learn hi-ber-nate tu-to-rial - ja-va-tpo-int.  []$\OT1/pcr/m/
 n/12 https : / / www . javatpoint . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 []\OT1/ppl/m/n/12 What is hi-ber-nate? de-fi-ni-tion from the-ser-ver-side.  []
 $\OT1/pcr/m/n/12 https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 []\OT1/ppl/m/n/12 When to use sql vs. no-sql.  []$\OT1/pcr/m/n/12 https : / / i
 ntegrant . com / blog /
  []
 
-) [45
+) [43
 
 ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E2F512AF60076244EAAE397BF8DFF477;8037.
+(rerunfilecheck)             Checksum: 816C45CDC33F7DFCC9E83652ED7252EF;7585.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11434 strings out of 480198
- 173400 string characters out of 2878856
- 475534 words of memory out of 3000000
- 27588 multiletter control sequences out of 15000+200000
+ 11436 strings out of 480198
+ 173445 string characters out of 2878856
+ 474638 words of memory out of 3000000
+ 27593 multiletter control sequences out of 15000+200000
  560692 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,66p,993b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/courier/ucrb8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/urw/courier/ucrr8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/palatino/uplb8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/palatino/uplr8a.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/
-fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (51 pages, 1783496 bytes).
+/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/andre/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/andre/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/andre/AppData/
+Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/andre/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/andre/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/andre/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/andr
+e/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (49 pages, 1814430 bytes).
 PDF statistics:
- 681 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
- 625 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 687 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
+ 609 words of extra memory for PDF output out of 10000 (max. 10000000)
 

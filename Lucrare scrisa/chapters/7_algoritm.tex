@@ -1,11 +1,30 @@
 \chapter{Algoritmul de repartizare}
 
-Amet venenatis urna cursus eget. Quam vulputate dignissim suspendisse in est ante. Proin nibh nisl condimentum id. Egestas maecenas pharetra convallis posuere morbi. Risus viverra adipiscing at in. Vulputate eu scelerisque felis imperdiet. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. In aliquam sem fringilla ut morbi tincidunt augue. Montes nascetur ridiculus mus mauris. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. In nibh mauris cursus mattis molestie a iaculis. Interdum consectetur libero id faucibus nisl tincidunt eget. Gravida in fermentum et sollicitudin ac orci. Suscipit adipiscing bibendum est ultricies. Etiam non quam lacus suspendisse. Leo urna molestie at elementum eu facilisis sed odio morbi. Egestas congue quisque egestas diam in arcu cursus. Amet consectetur adipiscing elit ut aliquam purus.
+Problema pe care își propune această aplicație să o rezolve este o instanță a problemei asignării sau problema atribuirii (\textit{assignment problem}). Este de precizat că cele două nume vor fi folosite interschimbabil în secțiunile următoare. În cazul de față, instanța este reprezentată de o mulțime de studenți, fiecare cu o ordonare a unor prefereințe, și o mulțime a propunerilor profesorilor (proiecte sau tematici generale). Cerința este reapartizarea optimă a propunerilor către studenți în funcție de preferințele acestora.
+
+În literatura de specialitatea au fost descriși și dezvoltați diverși algoritmi de rezolvare a unei astfel de instanțe a problemei atribuirii. Algoritmul implementat de aplicația \thesistitle{} este unul din clasa de algoritmi de licitație (\textit{auction algorithms}), descris în lucrarea "Assignment Problem with Constraints" scrisă de către Ulrich Bauer, Facultatea de Informatică a Universității Tehcnice din München, 2005. Pentru a descrie coerent și cât mai clar logica acestui algoritm, în secțiunile următoare vor fi descrise problema atribuirii și similitudinile acesteia cu o problemă de flux, conceptele matematice ale algoritmilor propuși pentru rezolvare și pașii algoritmului implementat pentru instanța prezentă.
+
+\section{Problema asignării (atribuirii)}
+
+Problema simetrică a asignării constă în două mulțimi $X$ și $Y$ de dimensiuni egale, o mulțime $E \subseteq X \times Y$ și o funcție de cost $c_{xy}$ pentru oricare pereche posibilă $(x, y) \in E$. Scopul este cuplarea oricărui element din $X$ cu un element din $Y$ ca la final costul total să fie minim \cite{assignment}.
+
+În contextul grafurilor, această problemă poate fi redusă la problema fluxului de cost minim într-un  graf bipartit $G=((X \bigcup Y,\ E)$ cu o funcție de cost $c_{xy},\ (x, y) \in E$, și capacitatea $u_xy = 1, \forall (x, y) \in E$. 
+
+Expresia matematică a problemei \cite[p.~6]{assignment} este 
+\[ minimizarea \sum_{(i, j) \in E} c_{ij} x_{ij} \]
+astfel încât
+\[ \sum_{j:(i, j) \in E} x_{ij} = 1, \forall i \in X, \]
+\[ \sum_{i:(i, j) \in E} x_{ij} = 1, \forall j \in Y, \]
+\[ x_{ij} \geq 0, \forall (i, j) \in E \].
+
+Variabila $x_{ij}$ indică câtă unități de flux sunt trimise pe muchia $(i, j)$.
+
+Cu toate acestea, problema repartizării fiecărui student o teză de licență în funcție de preferințele sale este o problemă asimetrică deoarece numărul de propuneri, $|Y|$, este mai mare sau egal decât numărul de studenți (trebuie să fie măcar egal pentru a putea atribui fiecărui student o lucrare). La final, o soluția determinată se va afla în variabila $x_{ij}$ unde dacă $x_{ij} = 1$, atunci studentului $i$ îi este repartizată propunerea $j$ din totalul de propuneri al tuturor profesorilor.
+
+\section{Algoritmul}
 
 \section{Descrierea particularităților}
 
-Eros donec ac odio tempor. Facilisi morbi tempus iaculis urna id volutpat. Faucibus in ornare quam viverra orci sagittis eu. Amet tellus cras adipiscing enim eu turpis egestas. Integer feugiat scelerisque varius morbi. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Bibendum arcu vitae elementum curabitur. Eu nisl nunc mi ipsum faucibus. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Cras adipiscing enim eu turpis egestas pretium. Quisque non tellus orci ac auctor augue mauris augue. Malesuada pellentesque elit eget gravida cum. Ut lectus arcu bibendum at. Massa id neque aliquam vestibulum morbi blandit. Posuere ac ut consequat semper viverra nam. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget. Eu feugiat pretium nibh ipsum consequat nisl vel. Nisl purus in mollis nunc sed.
 
 \section{Implementare}
 
-Elementum sagittis vitae et leo duis ut diam quam nulla. Purus sit amet volutpat consequat mauris nunc. Tincidunt augue interdum velit euismod in pellentesque massa. Nunc sed augue lacus viverra vitae congue. Porttitor leo a diam sollicitudin. Faucibus pulvinar elementum integer enim. Adipiscing bibendum est ultricies integer quis auctor elit. Blandit aliquam etiam erat velit scelerisque in. A iaculis at erat pellentesque adipiscing commodo elit at. Erat nam at lectus urna duis. Consequat ac felis donec et. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Proin gravida hendrerit lectus a. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Gravida arcu ac tortor dignissim convallis aenean. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Sed viverra ipsum nunc aliquet. Quis enim lobortis scelerisque fermentum dui faucibus in.
