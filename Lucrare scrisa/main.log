@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  10 FEB 2023 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.24)  11 FEB 2023 19:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -308,37 +308,77 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen166
 \@vwid@roff=\dimen167
 ))
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks23
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+ (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count269
+\c@ALG@rem=\count270
+\c@ALG@nested=\count271
+\ALG@tlm=\skip50
+\ALG@thistlm=\skip51
+\c@ALG@Lnr=\count272
+\c@ALG@blocknr=\count273
+\c@ALG@storecount=\count274
+\c@ALG@tmpcounter=\count275
+\ALG@tmplength=\skip52
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks24
+\c@algorithm=\count276
+)
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3
-3.
+5.
  (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count269
+\l__kernel_color_stack_int=\count277
 \l__pdf_internal_box=\box51
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -378,17 +418,17 @@ LaTeX Font Info:    ... okay on input line 33.
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
+\scratchcounter=\count278
 \scratchdimen=\dimen168
 \scratchbox=\box52
-\nofMPsegments=\count271
-\nofMParguments=\count272
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count273
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count281
 \MPscratchDim=\dimen169
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks26
 )
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -396,7 +436,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -408,31 +448,31 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count276
+\c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
  (front/macros.tex) (front/cover.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
-<images//logoFii.png, id=227, 193.47281pt x 188.95593pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+
+(C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<images//logoFii.png, id=259, 193.47281pt x 188.95593pt>
 File: images//logoFii.png Graphic file (type png)
 <use images//logoFii.png>
 Package pdftex.def Info: images//logoFii.png  used on input line 13.
 (pdftex.def)             Requested size: 136.57462pt x 133.38693pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 24.
 
 [1
 
@@ -443,11 +483,6 @@ identifier (name{page.}) has been already used, duplicate ignored
                    \relax 
 l.35 \end{titlepage}
                      [1]) (front/declaration1.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
-
 Overfull \hbox (20.36021pt too wide) in paragraph at lines 16--17
 \OT1/ppl/b/n/12 Sf. Teo-dor nr. 14\OT1/ppl/m/n/12 , n[]ascut la data de \OT1/pp
 l/b/n/12 03 no-iem-brie 2000\OT1/ppl/m/n/12 , iden-ti-fi-cat prin CNP \OT1/ppl/
@@ -458,13 +493,13 @@ b/n/12 5001103226752\OT1/ppl/m/n/12 ,
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42     \input{front/declaration1}
+l.44     \input{front/declaration1}
                                     [1] (front/declaration2.tex)pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.43     \input{front/declaration2}
+l.45     \input{front/declaration2}
                                     [2] (main.tocpdfTeX warning (ext4): destina
 tion with the same identifier (name{page.}) has been already used, duplicate ig
 nored
@@ -477,16 +512,13 @@ l.25 ...numberline {4}Baza de date}{16}{chapter.4}
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 ...line {chapter}{Concluzii}{42}{chapter*.10}
+l.64 ...erline {7.4}Implementare}{42}{section.7.4}
                                                   % [4])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
-(chapters/motivation.tex [1]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 1.
-) (chapters/introduction.tex [2
+(chapters/motivation.tex [1]) (chapters/introduction.tex [2
 
 ]
 
@@ -519,7 +551,7 @@ Overfull \hbox (2.40755pt too wide) in paragraph at lines 18--22
 
 ) (chapters/2_arhitectura_aplicatiei.tex [6] [7]
 Capitolul 2.
-<images//Thesis Matcher-App architecture.drawio.png, id=340, 598.235pt x 556.07
+<images//Thesis Matcher-App architecture.drawio.png, id=380, 598.235pt x 556.07
 75pt>
 File: images//Thesis Matcher-App architecture.drawio.png Graphic file (type png
 )
@@ -537,12 +569,12 @@ l.1 \chapter
             {Tehnologii utilizate} <./images//Thesis Matcher-App architecture.d
 rawio.png>]
 Capitolul 3.
-<images//Angular-logo.png, id=351, 1204.5pt x 602.25pt>
+<images//Angular-logo.png, id=391, 1204.5pt x 602.25pt>
 File: images//Angular-logo.png Graphic file (type png)
 <use images//Angular-logo.png>
 Package pdftex.def Info: images//Angular-logo.png  used on input line 7.
 (pdftex.def)             Requested size: 136.57462pt x 68.28778pt.
-<images//Angular-crunchbase-newspng.png, id=352, 770.88pt x 807.015pt>
+<images//Angular-crunchbase-newspng.png, id=392, 770.88pt x 807.015pt>
 File: images//Angular-crunchbase-newspng.png Graphic file (type png)
 <use images//Angular-crunchbase-newspng.png>
 Package pdftex.def Info: images//Angular-crunchbase-newspng.png  used on input 
@@ -556,7 +588,7 @@ ame identifier (name{figure.3.1}) has been already used, duplicate ignored
                                                   
 l.28 
       <./images//Angular-crunchbase-newspng.png>]
-<images//Angular_Architecture.png, id=365, 2407.99625pt x 1318.9275pt>
+<images//Angular_Architecture.png, id=405, 2407.99625pt x 1318.9275pt>
 File: images//Angular_Architecture.png Graphic file (type png)
 <use images//Angular_Architecture.png>
 Package pdftex.def Info: images//Angular_Architecture.png  used on input line 4
@@ -568,7 +600,7 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
 (C:\Users\andre\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<images//Spring-boot-logo.jpg, id=368, 602.25pt x 316.18124pt>
+<images//Spring-boot-logo.jpg, id=408, 602.25pt x 316.18124pt>
 File: images//Spring-boot-logo.jpg Graphic file (type jpg)
 <use images//Spring-boot-logo.jpg>
 Package pdftex.def Info: images//Spring-boot-logo.jpg  used on input line 49.
@@ -580,7 +612,7 @@ Package pdftex.def Info: images//Spring-boot-logo.jpg  used on input line 49.
                                                   
 l.52 
       <./images//Angular_Architecture.png>]
-<images//Spring-ranking.png, id=380, 1040.88875pt x 587.19376pt>
+<images//Spring-ranking.png, id=420, 1040.88875pt x 587.19376pt>
 File: images//Spring-ranking.png Graphic file (type png)
 <use images//Spring-ranking.png>
 Package pdftex.def Info: images//Spring-ranking.png  used on input line 64.
@@ -594,7 +626,7 @@ l.84 V
       ersiunea de Spring Boot este 2.7.6. <./images//Spring-ranking.png (PNG co
 py)>]) (chapters/4_baza_de_date.tex [15]
 Capitolul 4.
-<images//DB_diagram.png, id=400, 784.9325pt x 706.64pt>
+<images//DB_diagram.png, id=440, 784.9325pt x 706.64pt>
 File: images//DB_diagram.png Graphic file (type png)
 <use images//DB_diagram.png>
 Package pdftex.def Info: images//DB_diagram.png  used on input line 11.
@@ -602,7 +634,7 @@ Package pdftex.def Info: images//DB_diagram.png  used on input line 11.
 [16
 
 ]
-<images//user_model.png, id=406, 176.66pt x 248.93pt>
+<images//user_model.png, id=446, 176.66pt x 248.93pt>
 File: images//user_model.png Graphic file (type png)
 <use images//user_model.png>
 Package pdftex.def Info: images//user_model.png  used on input line 23.
@@ -618,7 +650,7 @@ e same identifier (name{figure.4.2}) has been already used, duplicate ignored
                                                   
 l.39 
       <./images//user_model.png>]
-<images//preference_model.png, id=419, 135.50626pt x 138.5175pt>
+<images//preference_model.png, id=459, 135.50626pt x 138.5175pt>
 File: images//preference_model.png Graphic file (type png)
 <use images//preference_model.png>
 Package pdftex.def Info: images//preference_model.png  used on input line 51.
@@ -642,7 +674,7 @@ Overfull \hbox (22.99931pt too wide) in paragraph at lines 57--58
                                                   
 l.61 \section
              {Propunerile} <./images//preference_model.png>]
-<images//proposal_model.png, id=427, 172.645pt x 204.765pt>
+<images//proposal_model.png, id=467, 172.645pt x 204.765pt>
 File: images//proposal_model.png Graphic file (type png)
 <use images//proposal_model.png>
 Package pdftex.def Info: images//proposal_model.png  used on input line 72.
@@ -660,7 +692,7 @@ Overfull \hbox (52.32718pt too wide) in paragraph at lines 76--77
                                                   
 l.77 
       <./images//proposal_model.png>]
-<images//accord_model.png, id=433, 133.49875pt x 160.6pt>
+<images//accord_model.png, id=473, 133.49875pt x 160.6pt>
 File: images//accord_model.png Graphic file (type png)
 <use images//accord_model.png>
 Package pdftex.def Info: images//accord_model.png  used on input line 85.
@@ -671,7 +703,7 @@ Overfull \hbox (48.00719pt too wide) in paragraph at lines 91--92
  aju-to-rul Spring Boot, interac[]ioneaz[]a
  []
 
-<images//hibernate-logo.png, id=434, 602.25pt x 160.6pt>
+<images//hibernate-logo.png, id=474, 602.25pt x 160.6pt>
 File: images//hibernate-logo.png Graphic file (type png)
 <use images//hibernate-logo.png>
 Package pdftex.def Info: images//hibernate-logo.png  used on input line 96.
@@ -682,7 +714,7 @@ Package pdftex.def Info: images//hibernate-logo.png  used on input line 96.
                                                   
 l.99 
       <./images//accord_model.png>]
-<images//orm.jpg, id=443, 559.08875pt x 153.57375pt>
+<images//orm.jpg, id=483, 559.08875pt x 153.57375pt>
 File: images//orm.jpg Graphic file (type jpg)
 <use images//orm.jpg>
 Package pdftex.def Info: images//orm.jpg  used on input line 106.
@@ -705,7 +737,7 @@ Overfull \hbox (21.98122pt too wide) in paragraph at lines 126--127
 rul \OT1/pcr/m/n/12 application.properties
  []
 
-<images//application-properties.jpg, id=459, 869.2475pt x 207.77625pt>
+<images//application-properties.jpg, id=499, 869.2475pt x 207.77625pt>
 File: images//application-properties.jpg Graphic file (type jpg)
 <use images//application-properties.jpg>
 Package pdftex.def Info: images//application-properties.jpg  used on input line
@@ -717,7 +749,7 @@ Overfull \hbox (23.17982pt too wide) in paragraph at lines 134--135
 ing Boot este ne-ce-sar[]a ad[]augarea
  []
 
-<images//hibernate-dependency.jpg, id=460, 284.86424pt x 52.39575pt>
+<images//hibernate-dependency.jpg, id=500, 284.86424pt x 52.39575pt>
 File: images//hibernate-dependency.jpg Graphic file (type jpg)
 <use images//hibernate-dependency.jpg>
 Package pdftex.def Info: images//hibernate-dependency.jpg  used on input line 1
@@ -735,7 +767,7 @@ l.145
 l.145 
        <./images//application-properties.jpg> <./images//hibernate-dependency.j
 pg>]
-<images//populating-config-class.jpg, id=467, 287.27325pt x 182.48175pt>
+<images//populating-config-class.jpg, id=507, 287.27325pt x 182.48175pt>
 File: images//populating-config-class.jpg Graphic file (type jpg)
 <use images//populating-config-class.jpg>
 Package pdftex.def Info: images//populating-config-class.jpg  used on input lin
@@ -756,7 +788,7 @@ l.163 Î
         n cazul de față, numărul total de utilizatori a fost ales \textbf...
  <./images//populating-config-class.jpg>]) (chapters/5_front-end.tex [25]
 Capitolul 5.
-<images//matching-page.jpg, id=478, 1156.32pt x 564.30824pt>
+<images//matching-page.jpg, id=518, 1156.32pt x 564.30824pt>
 File: images//matching-page.jpg Graphic file (type jpg)
 <use images//matching-page.jpg>
 Package pdftex.def Info: images//matching-page.jpg  used on input line 19.
@@ -764,12 +796,12 @@ Package pdftex.def Info: images//matching-page.jpg  used on input line 19.
 [26
 
 ]
-<images//auth-page.jpg, id=483, 416.757pt x 141.52875pt>
+<images//auth-page.jpg, id=523, 416.757pt x 141.52875pt>
 File: images//auth-page.jpg Graphic file (type jpg)
 <use images//auth-page.jpg>
 Package pdftex.def Info: images//auth-page.jpg  used on input line 31.
 (pdftex.def)             Requested size: 227.62206pt x 77.299pt.
-<images//my-profile-page.jpg, id=484, 820.86674pt x 433.62pt>
+<images//my-profile-page.jpg, id=524, 820.86674pt x 433.62pt>
 File: images//my-profile-page.jpg Graphic file (type jpg)
 <use images//my-profile-page.jpg>
 Package pdftex.def Info: images//my-profile-page.jpg  used on input line 39.
@@ -785,12 +817,12 @@ l.42
                                                   
 l.42 
       <./images//matching-page.jpg> <./images//auth-page.jpg>]
-<images//professors-page.jpg, id=491, 804.606pt x 436.63126pt>
+<images//professors-page.jpg, id=531, 804.606pt x 436.63126pt>
 File: images//professors-page.jpg Graphic file (type jpg)
 <use images//professors-page.jpg>
 Package pdftex.def Info: images//professors-page.jpg  used on input line 49.
 (pdftex.def)             Requested size: 227.62206pt x 123.52177pt.
-<images//proposals-page.jpg, id=492, 831.105pt x 263.7855pt>
+<images//proposals-page.jpg, id=532, 831.105pt x 263.7855pt>
 File: images//proposals-page.jpg Graphic file (type jpg)
 <use images//proposals-page.jpg>
 Package pdftex.def Info: images//proposals-page.jpg  used on input line 55.
@@ -812,12 +844,12 @@ l.60
 l.60 
       <./images//my-profile-page.jpg> <./images//professors-page.jpg> <./images
 //proposals-page.jpg>]
-<images//preferences-page.jpg, id=500, 811.23074pt x 364.9635pt>
+<images//preferences-page.jpg, id=540, 811.23074pt x 364.9635pt>
 File: images//preferences-page.jpg Graphic file (type jpg)
 <use images//preferences-page.jpg>
 Package pdftex.def Info: images//preferences-page.jpg  used on input line 65.
 (pdftex.def)             Requested size: 273.14923pt x 122.88306pt.
-<images//professor-proposals-page.jpg, id=501, 814.242pt x 322.806pt>
+<images//professor-proposals-page.jpg, id=541, 814.242pt x 322.806pt>
 File: images//professor-proposals-page.jpg Graphic file (type jpg)
 <use images//professor-proposals-page.jpg>
 Package pdftex.def Info: images//professor-proposals-page.jpg  used on input li
@@ -835,12 +867,12 @@ l.82
 l.82 
       <./images//preferences-page.jpg> <./images//professor-proposals-page.jpg>
 ]
-<images//accords-page.jpg, id=508, 800.9925pt x 221.02576pt>
+<images//accords-page.jpg, id=548, 800.9925pt x 221.02576pt>
 File: images//accords-page.jpg Graphic file (type jpg)
 <use images//accords-page.jpg>
 Package pdftex.def Info: images//accords-page.jpg  used on input line 85.
 (pdftex.def)             Requested size: 273.14923pt x 75.37372pt.
-<images//add-user-page.jpg, id=509, 798.5835pt x 324.0105pt>
+<images//add-user-page.jpg, id=549, 798.5835pt x 324.0105pt>
 File: images//add-user-page.jpg Graphic file (type jpg)
 <use images//add-user-page.jpg>
 Package pdftex.def Info: images//add-user-page.jpg  used on input line 95.
@@ -867,7 +899,7 @@ Overfull \hbox (13.32639pt too wide) in paragraph at lines 109--110
 rilor []n view []i []n pro-priet[]a[]ile instan[]ei
  []
 
-<images//user-list-on-init.jpg, id=519, 290.2845pt x 139.11975pt>
+<images//user-list-on-init.jpg, id=559, 290.2845pt x 139.11975pt>
 File: images//user-list-on-init.jpg Graphic file (type jpg)
 <use images//user-list-on-init.jpg>
 Package pdftex.def Info: images//user-list-on-init.jpg  used on input line 115.
@@ -897,12 +929,12 @@ Overfull \hbox (20.45532pt too wide) in paragraph at lines 125--126
                                                   
 l.126 
        <./images//user-list-on-init.jpg>]
-<images//proposals-routes.jpg, id=530, 263.18324pt x 264.99pt>
+<images//proposals-routes.jpg, id=570, 263.18324pt x 264.99pt>
 File: images//proposals-routes.jpg Graphic file (type jpg)
 <use images//proposals-routes.jpg>
 Package pdftex.def Info: images//proposals-routes.jpg  used on input line 129.
 (pdftex.def)             Requested size: 227.62206pt x 229.19298pt.
-<images//auth-service.jpg, id=531, 245.11575pt x 348.1005pt>
+<images//auth-service.jpg, id=571, 245.11575pt x 348.1005pt>
 File: images//auth-service.jpg Graphic file (type jpg)
 <use images//auth-service.jpg>
 Package pdftex.def Info: images//auth-service.jpg  used on input line 141.
@@ -913,7 +945,7 @@ Package pdftex.def Info: images//auth-service.jpg  used on input line 141.
                                                   
 l.144 
        <./images//proposals-routes.jpg>]
-<images//proposal-resolver.jpg, id=537, 338.4645pt x 157.7895pt>
+<images//proposal-resolver.jpg, id=577, 338.4645pt x 157.7895pt>
 File: images//proposal-resolver.jpg Graphic file (type jpg)
 <use images//proposal-resolver.jpg>
 Package pdftex.def Info: images//proposal-resolver.jpg  used on input line 155.
@@ -925,7 +957,7 @@ Package pdftex.def Info: images//proposal-resolver.jpg  used on input line 155.
                                                   
 l.158 
        <./images//auth-service.jpg>]
-<images//auth-guard.jpg, id=544, 355.92975pt x 292.09125pt>
+<images//auth-guard.jpg, id=584, 355.92975pt x 292.09125pt>
 File: images//auth-guard.jpg Graphic file (type jpg)
 <use images//auth-guard.jpg>
 Package pdftex.def Info: images//auth-guard.jpg  used on input line 165.
@@ -946,7 +978,7 @@ l.172
                                                   
 l.172 
        <./images//proposal-resolver.jpg> <./images//auth-guard.jpg>]
-<images//auth-form.jpg, id=552, 362.5545pt x 181.8795pt>
+<images//auth-form.jpg, id=592, 362.5545pt x 181.8795pt>
 File: images//auth-form.jpg Graphic file (type jpg)
 <use images//auth-form.jpg>
 Package pdftex.def Info: images//auth-form.jpg  used on input line 175.
@@ -976,11 +1008,149 @@ Overfull \hbox (2.62228pt too wide) in paragraph at lines 3--4
 
 [38
 
-]) (chapters/8_indicatii.tex [39]
-Capitolul 8.
-) [40
+]
+Overfull \hbox (1.18362pt too wide) in paragraph at lines 24--25
+[]\OT1/ppl/m/n/12 Important de pre-ci-zat este c[]a []n acest caz, rating-ul t
+o-tal al preferin[]elor sa-tisf[]acute
+ []
 
-] (chapters/conclusions.tex [41]) (main.bbl [42
+
+LaTeX Warning: Citation `auction' on page 39 undefined on input line 28.
+
+[39]
+Overfull \hbox (7.98625pt too wide) in paragraph at lines 32--33
+\OT1/ppl/m/it/12 scaling\OT1/ppl/m/n/12 ) pen-tru a []mbun[]at[]a[]i performan
+[]a al-go-rit-mu-lui []n ca-zul instan[]elor unde num[]arul
+ []
+
+[40]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 54.
+ [41]
+<images//edge-class.jpg, id=638, 141.52875pt x 96.96225pt>
+File: images//edge-class.jpg Graphic file (type jpg)
+<use images//edge-class.jpg>
+Package pdftex.def Info: images//edge-class.jpg  used on input line 112.
+(pdftex.def)             Requested size: 227.62206pt x 155.95796pt.
+ [42] [43pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.7.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.125 
+       <./images//edge-class.jpg>]
+<images//double-push-method.jpg, id=651, 384.2355pt x 440.24475pt>
+File: images//double-push-method.jpg Graphic file (type jpg)
+<use images//double-push-method.jpg>
+Package pdftex.def Info: images//double-push-method.jpg  used on input line 136
+.
+(pdftex.def)             Requested size: 318.66948pt x 365.13435pt.
+
+Overfull \hbox (23.49274pt too wide) in paragraph at lines 140--141
+[]\OT1/ppl/m/n/12 Este de-fi-nit[]a va-ri-a-bila lo-cal[]a \OT1/pcr/m/n/12 resu
+lt \OT1/ppl/m/n/12 ca un ta-blou de dou[]a pozi[]ii. Pozi[]ia \OT1/pcr/m/n/12 r
+esult[0]
+ []
+
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.141 
+       <./images//double-push-method.jpg>]
+<images//push-step.jpg, id=657, 329.43076pt x 104.18925pt>
+File: images//push-step.jpg Graphic file (type jpg)
+<use images//push-step.jpg>
+Package pdftex.def Info: images//push-step.jpg  used on input line 146.
+(pdftex.def)             Requested size: 455.24411pt x 143.98956pt.
+<images//relabel-step.jpg, id=658, 332.442pt x 27.10126pt>
+File: images//relabel-step.jpg Graphic file (type jpg)
+<use images//relabel-step.jpg>
+Package pdftex.def Info: images//relabel-step.jpg  used on input line 154.
+(pdftex.def)             Requested size: 455.24411pt x 37.11235pt.
+
+Overfull \hbox (21.65544pt too wide) in paragraph at lines 160--161
+\OT1/ppl/m/n/12 ile re-pre-zent[]and indec[]ii studen[]ilor []n lista \OT1/pcr
+/m/n/12 studIds\OT1/ppl/m/n/12 . Va-lo-rile sunt de ti-pul \OT1/pcr/m/n/12 Assi
+gnation
+ []
+
+<images//assignation-type.jpg, id=659, 170.43675pt x 83.1105pt>
+File: images//assignation-type.jpg Graphic file (type jpg)
+<use images//assignation-type.jpg>
+Package pdftex.def Info: images//assignation-type.jpg  used on input line 164.
+(pdftex.def)             Requested size: 273.14923pt x 133.21916pt.
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.167 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.167 
+       <./images//push-step.jpg> <./images//relabel-step.jpg>]
+<images//matchingdto-class.jpg, id=666, 269.20575pt x 139.722pt>
+File: images//matchingdto-class.jpg Graphic file (type jpg)
+<use images//matchingdto-class.jpg>
+Package pdftex.def Info: images//matchingdto-class.jpg  used on input line 176.
+
+(pdftex.def)             Requested size: 318.66948pt x 165.4035pt.
+<images//matchingstudentdto-class.jpg, id=667, 218.61674pt x 150.5625pt>
+File: images//matchingstudentdto-class.jpg Graphic file (type jpg)
+<use images//matchingstudentdto-class.jpg>
+Package pdftex.def Info: images//matchingstudentdto-class.jpg  used on input li
+ne 184.
+(pdftex.def)             Requested size: 227.62206pt x 156.76738pt.
+<images//matchingproposaldto-class.jpg, id=668, 230.0595pt x 163.20975pt>
+File: images//matchingproposaldto-class.jpg Graphic file (type jpg)
+<use images//matchingproposaldto-class.jpg>
+Package pdftex.def Info: images//matchingproposaldto-class.jpg  used on input l
+ine 189.
+(pdftex.def)             Requested size: 227.62206pt x 161.48848pt.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.197 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.197 
+       <./images//assignation-type.jpg> <./images//matchingdto-class.jpg>]
+<images//round-method.jpg, id=675, 227.04825pt x 69.861pt>
+File: images//round-method.jpg Graphic file (type jpg)
+<use images//round-method.jpg>
+Package pdftex.def Info: images//round-method.jpg  used on input line 200.
+(pdftex.def)             Requested size: 455.24411pt x 140.08511pt.
+
+Overfull \hbox (19.9167pt too wide) in paragraph at lines 204--205
+[]\OT1/ppl/m/n/12 Constanta \OT1/pcr/m/n/12 alpha \OT1/ppl/m/n/12 a fost ini[]i
+alizat[]a cu va-loa-rea 10, urm[]and re-co-mand[]arile men[]ionate
+ []
+
+) (chapters/8_indicatii.tex [47pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.7.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.1 \chapter
+            {Indicații de utilizare}pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.7.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.1 \chapter
+            {Indicații de utilizare}pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.7.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.1 \chapter
+            {Indicații de utilizare} <./images//matchingstudentdto-class.jpg> 
+<./images//matchingproposaldto-class.jpg> <./images//round-method.jpg>]
+Capitolul 8.
+) [48
+
+] (chapters/conclusions.tex [49]) (main.bbl [50
 
 ]
 Underfull \hbox (badness 3803) in paragraph at lines 21--24
@@ -1000,24 +1170,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 ntegrant . com / blog /
  []
 
-) [43
+) [51
 
 ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 816C45CDC33F7DFCC9E83652ED7252EF;7585.
+(rerunfilecheck)             Checksum: 92404AAEFB050BEA162AA3D58C6EF50B;9397.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11436 strings out of 480198
- 173445 string characters out of 2878856
- 474638 words of memory out of 3000000
- 27593 multiletter control sequences out of 15000+200000
- 560692 words of font info for 89 fonts, out of 3000000 for 9000
+ 12223 strings out of 480198
+ 185843 string characters out of 2878856
+ 487284 words of memory out of 3000000
+ 28311 multiletter control sequences out of 15000+200000
+ 567286 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,66p,993b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,9n,66p,993b,455s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1027,14 +1197,17 @@ Here is how much of TeX's memory you used:
 nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/andre/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/andre/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/andre/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/andre/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/andre/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/andre/A
-ppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/andr
-e/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (49 pages, 1814430 bytes).
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/
+andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/User
+s/andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Us
+ers/andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:
+/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb
+><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.
+pfb><C:/Users/andre/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr
+i8a.pfb>
+Output written on main.pdf (57 pages, 2066861 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 609 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 798 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
