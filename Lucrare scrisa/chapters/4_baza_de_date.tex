@@ -33,7 +33,7 @@ Cei mai mulți utilizatori au rolul \textbf{ROLE\_USER}, un rol default. Acest l
 
 \subsubsection{Tipuri}
 
-\textbf{Profesorii} pot crea și actualiza propuneri (en. proposals) pentru teza de licență. Aceste propuneri pot fi \textit{project} sau \textit{topic}, detalierea acestora urmând a fi făcută ulterior. De asemenea, aceștia pot încheia acorduri (en. accords) cu anumiți studenți pentru unele dintre propunerile lor. Acest lucru le permite studenților să nu mai participe la algoritmul de stable matching, fiind deja repartizați profesorilor respectivi.
+\textbf{Profesorii} pot crea și actualiza propuneri (en. proposals) pentru teza de licență. Aceste propuneri pot fi \textit{project} sau \textit{topic}, detalierea acestora urmând a fi făcută ulterior. De asemenea, aceștia pot încheia acorduri (en. accords) cu anumiți studenți pentru unele dintre propunerile lor. Acest lucru le permite studenților să nu mai participe la algoritmul de asignare, fiind deja repartizați profesorilor respectivi.
 
 \textbf{Studenții} pot crea și actualiza preferințe (en. preferences) într-o anumită ierarhie a lor. Așadar, categorisirea utilizatorilor în profesori și studenți are unicul scop de a diferenția interfața în funcție de funcționalitățile specifice tipurilor acestora.
 
@@ -54,7 +54,7 @@ Preferințele sunt modelate simplu, reprezentând în sine o relație între ent
 
 După cum se poate observa în tabela \textbf{\texttt{preference}}, acestea cuprind un \texttt{id\_stud} ce face legătura cu tabela \textbf{\texttt{student}} și un \texttt{id\_prop} ce face legătura cu tabela \textbf{\texttt{proposals}}.
 
-În plus, există un câmp \texttt{rating} care este de tipul BIGINT și indică invers proporțional importanța preferinței, mai exact o preferință cu un $\texttt{level} = 0 $ este pe primul loc în ierarhie. Este de asemenea important de precizat că mai multe preferințe ale unui student pot avea același rating, lucru necesar pentru un algoritm de \textit{stable matching with ties}.
+În plus, există un câmp \texttt{rating} care este de tipul BIGINT și indică invers proporțional importanța preferinței, mai exact o preferință cu un $\texttt{level} = 0 $ este pe primul loc în ierarhie. Este de asemenea important de precizat că mai multe preferințe ale unui student pot avea același rating, lucru ce permite o mai bună satisfiabilitate.
 
 Aceste relații între studenți și tezele propuse vor constitui datele de intrare pentru algoritm, fiind astfel de o importanță semnificativă în cadrul aplicației.
 
@@ -65,7 +65,7 @@ Un astfel de exemplu ar putea fi \textit{„Realizare unei aplicații de reconoa
 
 Pe de altă parte, o temă este o descriere pe larg a anumitor particularități ale unui proiect de cele mai multe ori dintr-un anumit domeniu de specialitate. La fel ca un proiect specific, o temă poate cuprinde atât lucrări general teoretice, cât și practice, studentul fiind nevoit să stabilească împreună cu profesorul său coordonator o teză concretă. Însă o propunere de acest fel poate avea un număr de locuri disponibile mai mare de 1, deoarece mai mulți studenți pot urma direcții diferite asupra tematicii propuse. Spre exemplu, profesorul poate propune o temă de „Algoritmi genetici și optimizarea acestora” care poate fi repartizată unor 3 studenți care stabilesc în mod distinct cu profesorul de licență lucrările lor.
 
-Cu toate acestea, din motive de simplificare și optimizare, la nivelul de scehmei de baze de date, a preferată modelarea propunerilor într-o singură tabelă intitulată sugestiv \textbf{\texttt{proposal}}, diferența dintre cele două tipuri fiind făcută de câmpul \texttt{places}. 
+Cu toate acestea, din motive de simplificare și optimizare, la nivelul de schemei de baze de date, a preferată modelarea propunerilor într-o singură tabelă intitulată sugestiv \textbf{\texttt{proposal}}, diferența dintre cele două tipuri fiind făcută de câmpul \texttt{places}. 
 
 \begin{figure}[H]
 	\centering

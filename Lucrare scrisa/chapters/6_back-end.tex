@@ -1,11 +1,27 @@
 \chapter{Back-end}
 
-Amet venenatis urna cursus eget. Quam vulputate dignissim suspendisse in est ante. Proin nibh nisl condimentum id. Egestas maecenas pharetra convallis posuere morbi. Risus viverra adipiscing at in. Vulputate eu scelerisque felis imperdiet. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. In aliquam sem fringilla ut morbi tincidunt augue. Montes nascetur ridiculus mus mauris. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. In nibh mauris cursus mattis molestie a iaculis. Interdum consectetur libero id faucibus nisl tincidunt eget. Gravida in fermentum et sollicitudin ac orci. Suscipit adipiscing bibendum est ultricies. Etiam non quam lacus suspendisse. Leo urna molestie at elementum eu facilisis sed odio morbi. Egestas congue quisque egestas diam in arcu cursus. Amet consectetur adipiscing elit ut aliquam purus.
+Partea de back-end a aplicației \thesistitle{} a fost implementată în framework-ul de Java Spring Boot. Această tehnologie în primul rând oferă o varietate de utilități pentru dezvoltarea web, procesare în paralel, tranazacții cu baza de date \cite{spring-boot-pros-cons}. Acesta beneficiază de un server integrat, în cazul de față este vorba de Tomcat, permițând un eventual \textit{deployment} mai ușor al aplicației. De asemenea, spre deosebire de Spring, Spring Boot nu are nevoie de o configurare XML.
+
+În al doilea rând, acest framework permite accesul la o serie utilă de plugin-uri care permit dezvoltarea unei securități adecvate, comunicare facilă cu baza de date și simplificarea codului
+
+Ultimul argument pentru alegerea acestei tehnologii este familiaritatea cu acesta și comunitatea extinsă de utilizatori și tutoriale.
+
+Codul aplicației de back-end a \thesistitle{} este structurat pe straturi (layers) ce permite localizarea ușoară a claselor în funcție de rolurile acestora \cite{spring-boot-code-structure}. Există astfel module pentru \textit{controllers}, \textit{models}, \textit{repository}, \textit{service}, \textit{algorithm} etc.
+
+\section{Inițializarea proiectului}
+
+
+
+\section{Configurarea}
+
+Fișierul \texttt{application.properties} menționat în secțiunea \textbf{4.6 Generarea datelor} conține elemente de configurare a aplicației, în special referitor la conexiunea cu baza de date. Este setat tipul bazei de date, în acest caz este MySQL, adresa la care rulează baza de date, username-ul și parola pentru conectare, precum și dialectul. Există 
+
+\section{Modelele}
+
+Pentru a simula înregistrările dintr-o bază de date, Spring Boot dispune de posibilitatea de a defini clase ce identifică anumite entități cu ajutorul unor adnotări specifice. Spring Boot utilizează \textit{Entity Scanning} pentru a le identifica în loc de un fișier special cum ar fi \texttt{persistence.xml} în Spring. Clasele luate în considerare sunt cele adnotate cu \texttt{Entity}, \texttt{Embeddable} sau \texttt{MappedSuperclass} \cite{spring-boot-docs}.
 
 \section{Autentificare}
 
-Eros donec ac odio tempor. Facilisi morbi tempus iaculis urna id volutpat. Faucibus in ornare quam viverra orci sagittis eu. Amet tellus cras adipiscing enim eu turpis egestas. Integer feugiat scelerisque varius morbi. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Bibendum arcu vitae elementum curabitur. Eu nisl nunc mi ipsum faucibus. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Cras adipiscing enim eu turpis egestas pretium. Quisque non tellus orci ac auctor augue mauris augue. Malesuada pellentesque elit eget gravida cum. Ut lectus arcu bibendum at. Massa id neque aliquam vestibulum morbi blandit. Posuere ac ut consequat semper viverra nam. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget. Eu feugiat pretium nibh ipsum consequat nisl vel. Nisl purus in mollis nunc sed.
 
 \section{Abordare}
 
-Elementum sagittis vitae et leo duis ut diam quam nulla. Purus sit amet volutpat consequat mauris nunc. Tincidunt augue interdum velit euismod in pellentesque massa. Nunc sed augue lacus viverra vitae congue. Porttitor leo a diam sollicitudin. Faucibus pulvinar elementum integer enim. Adipiscing bibendum est ultricies integer quis auctor elit. Blandit aliquam etiam erat velit scelerisque in. A iaculis at erat pellentesque adipiscing commodo elit at. Erat nam at lectus urna duis. Consequat ac felis donec et. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Proin gravida hendrerit lectus a. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Arcu cursus euismod quis viverra nibh cras pulvinar mattis. Gravida arcu ac tortor dignissim convallis aenean. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Sed viverra ipsum nunc aliquet. Quis enim lobortis scelerisque fermentum dui faucibus in.

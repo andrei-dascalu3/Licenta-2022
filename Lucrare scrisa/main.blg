@@ -5,53 +5,57 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Database file #1: chapters/myrefs.bib
-Warning--I didn't find a database entry for "angular-td-forms"
+Warning--to sort, need author or key in architecture
+Warning--to sort, need author or key in angular-history
 Warning--to sort, need author or key in angular-stats
 Warning--to sort, need author or key in sql1
 Warning--to sort, need author or key in hibernate1
 Warning--to sort, need author or key in hibernate2
 Warning--to sort, need author or key in component1
+Warning--to sort, need author or key in angular-basic
 Warning--to sort, need author or key in angular-lifecycle
 Warning--to sort, need author or key in angular-routes
-You've used 8 entries,
+Warning--to sort, need author or key in angular-td-forms
+Warning--to sort, need author or key in spring-boot-pros-cons
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            527 strings with 4900 characters,
-and the built_in function-call counts, 1363 in all, are:
-= -- 134
-> -- 14
+            542 strings with 5601 characters,
+and the built_in function-call counts, 2330 in all, are:
+= -- 220
+> -- 26
 < -- 0
-+ -- 10
-- -- 2
-* -- 44
-:= -- 176
-add.period$ -- 21
-call.type$ -- 8
-change.case$ -- 25
++ -- 19
+- -- 4
+* -- 74
+:= -- 289
+add.period$ -- 30
+call.type$ -- 14
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 57
-empty$ -- 176
-format.name$ -- 2
-if$ -- 327
+cite$ -- 26
+duplicate$ -- 99
+empty$ -- 313
+format.name$ -- 4
+if$ -- 564
 int.to.chr$ -- 0
-int.to.str$ -- 8
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 40
-num.names$ -- 2
-pop$ -- 67
+newline$ -- 61
+num.names$ -- 4
+pop$ -- 107
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 30
 quote$ -- 0
-skip$ -- 50
+skip$ -- 109
 stack$ -- 0
-substring$ -- 40
-swap$ -- 7
+substring$ -- 71
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
-warning$ -- 7
-while$ -- 2
-width$ -- 9
-write$ -- 70
-(There were 8 warnings)
+type$ -- 56
+warning$ -- 12
+while$ -- 4
+width$ -- 16
+write$ -- 106
+(There were 12 warnings)

@@ -1,9 +1,12 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{angular-td-forms}
+Angular - building a template-driven form.
+\newblock \url{https://angular.io/guide/forms}.
 
 \bibitem{component1}
 Angular - component.
 \newblock \url{https://angular.io/api/core/Component}.
-\newblock (Accessed on 02/07/2023).
 
 \bibitem{angular-lifecycle}
 Angular - lifecycle hooks.
@@ -13,29 +16,51 @@ Angular - lifecycle hooks.
 Angular - using angular routes in a single-page application.
 \newblock \url{https://angular.io/guide/router-tutorial}.
 
+\bibitem{angular-basic}
+Angular - what is angular?
+\newblock \url{https://angular.io/guide/what-is-angular}.
+
+\bibitem{angular-history}
+The history of angular. the past, present, and future of… | by dave gavigan |
+  the startup lab | medium.
+\newblock
+  \url{https://medium.com/the-startup-lab-blog/the-history-of-angular-3e36f7e828c7}.
+
+\bibitem{architecture}
+How to design a web application: Software architecture 101.
+\newblock
+  \url{https://www.educative.io/blog/how-to-design-a-web-application-software-architecture-101}.
+
 \bibitem{angular-stats}
 How to use angular development in 2022.
 \newblock \url{https://www.moveoapps.com/blog/how-to-use-angular-development/}.
 
+\bibitem{spring-boot-pros-cons}
+Key advantages and disadvantages of using spring boot.
+\newblock
+  \url{https://scand.com/company/blog/pros-and-cons-of-using-spring-boot/}.
+
 \bibitem{hibernate2}
 Learn hibernate tutorial - javatpoint.
 \newblock \url{https://www.javatpoint.com/hibernate-tutorial}.
-\newblock (Accessed on 01/11/2023).
 
 \bibitem{hibernate1}
 What is hibernate? definition from theserverside.
 \newblock \url{https://www.theserverside.com/definition/Hibernate}.
-\newblock (Accessed on 01/11/2023).
 
 \bibitem{sql1}
 When to use sql vs. nosql.
 \newblock \url{https://integrant.com/blog/when-to-use-sql-vs-nosql/}.
-\newblock (Accessed on 01/10/2023).
 
 \bibitem{assignment}
 Ulrich Bauer.
 \newblock Assignment problem with constraints.
 \newblock Master's thesis, Technische Universität München Fakultät für
   Informatik, 2005.
+
+\bibitem{auction}
+Dimitri~P. Bertsekas.
+\newblock Auction algorithms.
+\newblock \url{https://web.mit.edu/dimitrib/www/Auction_Encycl.pdf}.
 
 \end{thebibliography}

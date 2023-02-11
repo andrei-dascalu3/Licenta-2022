@@ -9,63 +9,63 @@
 \contentsline {section}{\numberline {1.2}Scopul documentului}{6}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Structura documentului}{6}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Contribuții}{6}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Arhitectura aplicației. Detalii}{8}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Tehnologii utilizate}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Angular}{10}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Scurt istoric}{10}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Particularități}{11}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Spring Boot}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Scurt istoric}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Motivație}{13}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Particularități}{14}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Detalii}{15}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}MySQL}{15}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Baza de date}{15}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Resurse externe}{15}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Baza de date}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Modelarea utilizatorilor}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}ROLE\_USER}{18}{subsection.4.1.1}%
-\contentsline {subsubsection}{Tipuri}{18}{section*.4}%
-\contentsline {subsection}{\numberline {4.1.2}ROLE\_ADMIN}{19}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Preferințele}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Propunerile}{20}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Acordurile}{21}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Lucrul pe partea de back-end cu baza de date}{21}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Hibernate}{22}{subsection.4.5.1}%
-\contentsline {subsubsection}{Ce este Hibernate}{22}{section*.5}%
-\contentsline {subsubsection}{Funcționalitatea Hibernate}{22}{section*.6}%
-\contentsline {subsubsection}{Avantaje ale Hibernate}{22}{section*.7}%
-\contentsline {section}{\numberline {4.6}Generarea datelor}{24}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Front-end}{26}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Interfața}{26}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Pagina principală}{26}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Interfața studentului}{28}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Interfața profesorului}{29}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Administratorul}{30}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}Detalii de implementare}{30}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Lifecylce hooks}{31}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Accesarea unei rute}{31}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Serviciile}{32}{subsection.5.2.3}%
-\contentsline {subsubsection}{Resolver}{33}{section*.8}%
-\contentsline {subsubsection}{Guard}{34}{section*.9}%
-\contentsline {subsection}{\numberline {5.2.4}Formularele}{34}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Precizări}{35}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Back-end}{36}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Autentificare}{36}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Abordare}{37}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Algoritmul de repartizare}{38}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Problema asignării (atribuirii)}{38}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Algoritmul de licitație}{39}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Algoritmul de licitație pentru problema asimetrică a asignării}{40}{subsection.7.2.1}%
-\contentsline {section}{\numberline {7.3}Pseudocod}{41}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Funcția \textit {doublePush} cu arbore binar (heap)}{41}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Funcția \textit {refine} de îmbunătățire a rezultatului}{42}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Algoritmul de licitație pentru asignare}{42}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}Implementare}{42}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Preprocesarea datelor}{43}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Algoritmul}{44}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Procesarea rezultatului}{45}{subsection.7.4.3}%
-\contentsline {section}{\numberline {7.5}Precizări}{47}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Indicații de utilizare}{48}{chapter.8}%
-\contentsline {chapter}{Concluzii}{50}{chapter*.10}%
-\contentsline {chapter}{Bibliografie}{51}{chapter*.11}%
+\contentsline {chapter}{\numberline {2}Arhitectura aplicației. Detalii}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Tehnologii utilizate}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Angular}{9}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Scurt istoric}{9}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Particularități}{10}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Spring Boot}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Scurt istoric}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Motivație}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Particularități}{13}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Detalii}{13}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}MySQL}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Baza de date}{13}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Resurse externe}{13}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Baza de date}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Modelarea utilizatorilor}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}ROLE\_USER}{16}{subsection.4.1.1}%
+\contentsline {subsubsection}{Tipuri}{16}{section*.4}%
+\contentsline {subsection}{\numberline {4.1.2}ROLE\_ADMIN}{17}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Preferințele}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Propunerile}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Acordurile}{19}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Lucrul pe partea de back-end cu baza de date}{19}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Hibernate}{19}{subsection.4.5.1}%
+\contentsline {subsubsection}{Ce este Hibernate}{20}{section*.5}%
+\contentsline {subsubsection}{Funcționalitatea Hibernate}{20}{section*.6}%
+\contentsline {subsubsection}{Avantaje ale Hibernate}{20}{section*.7}%
+\contentsline {section}{\numberline {4.6}Generarea datelor}{21}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Front-end}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Interfața}{23}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Pagina principală}{23}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Interfața studentului}{25}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Interfața profesorului}{26}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Administratorul}{27}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Detalii de implementare}{27}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Lifecylce hooks}{28}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Accesarea unei rute}{28}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Serviciile}{29}{subsection.5.2.3}%
+\contentsline {subsubsection}{Resolver}{30}{section*.8}%
+\contentsline {subsubsection}{Guard}{31}{section*.9}%
+\contentsline {subsection}{\numberline {5.2.4}Formularele}{31}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Precizări}{32}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Back-end}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Autentificare}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Abordare}{33}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Algoritmul de repartizare}{34}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Problema asignării (atribuirii)}{34}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Algoritmul de licitație}{35}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Algoritmul de licitație pentru problema asimetrică a asignării}{36}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Pseudocod}{37}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Funcția \textit {doublePush} cu arbore binar (heap)}{37}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Funcția \textit {refine} de îmbunătățire a rezultatului}{38}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Algoritmul de licitație pentru asignare}{38}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Implementare}{38}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Preprocesarea datelor}{39}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Algoritmul}{40}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Procesarea rezultatului}{41}{subsection.7.4.3}%
+\contentsline {section}{\numberline {7.5}Precizări}{43}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Indicații de utilizare}{44}{chapter.8}%
+\contentsline {chapter}{Concluzii}{46}{chapter*.10}%
+\contentsline {chapter}{Bibliografie}{47}{chapter*.11}%
