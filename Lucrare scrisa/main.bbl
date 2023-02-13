@@ -1,5 +1,16 @@
 \begin{thebibliography}{10}
 
+\bibitem{angular-architecture-diagram}
+\url{https://www.ngdevelop.tech/wp-content/uploads/2017/12/Angular_Architecture.png}.
+
+\bibitem{spring-popularity}
+\url{https://miro.medium.com/max/1400/1*Y6A_rS5IdRDUG4KRIFP_fA.png}.
+
+\bibitem{spring-boot-docs}
+31. working with sql databases.
+\newblock
+  \url{https://docs.spring.io/spring-boot/docs/2.1.13.RELEASE/reference/html/boot-features-sql.html}.
+
 \bibitem{angular-td-forms}
 Angular - building a template-driven form.
 \newblock \url{https://angular.io/guide/forms}.
@@ -43,6 +54,33 @@ Key advantages and disadvantages of using spring boot.
 \bibitem{hibernate2}
 Learn hibernate tutorial - javatpoint.
 \newblock \url{https://www.javatpoint.com/hibernate-tutorial}.
+
+\bibitem{spring-boot-code-structure}
+Spring boot - code structure - geeksforgeeks.
+\newblock \url{https://www.geeksforgeeks.org/spring-boot-code-structure/}.
+
+\bibitem{spring-boot-deps}
+Spring boot - dependency management - geeksforgeeks.
+\newblock
+  \url{https://www.geeksforgeeks.org/spring-boot-dependency-management/}.
+
+\bibitem{spring-boot-app-class}
+Spring boot @springbootapplication, springapplication class | digitalocean.
+\newblock
+  \url{https://www.digitalocean.com/community/tutorials/springbootapplication-springapplication}.
+
+\bibitem{spring-boot-initializr}
+Spring initializr.
+\newblock \url{https://start.spring.io/}.
+
+\bibitem{rest-api}
+What is a rest api?
+\newblock \url{https://www.redhat.com/en/topics/api/what-is-a-rest-api}.
+
+\bibitem{api-endpoint}
+What is an api endpoint? | smartbear software resources.
+\newblock
+  \url{https://smartbear.com/learn/performance-monitoring/api-endpoints/}.
 
 \bibitem{hibernate1}
 What is hibernate? definition from theserverside.

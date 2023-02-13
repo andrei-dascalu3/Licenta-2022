@@ -8,6 +8,8 @@ Database file #1: chapters/myrefs.bib
 Warning--to sort, need author or key in architecture
 Warning--to sort, need author or key in angular-history
 Warning--to sort, need author or key in angular-stats
+Warning--to sort, need author or key in angular-architecture-diagram
+Warning--to sort, need author or key in spring-popularity
 Warning--to sort, need author or key in sql1
 Warning--to sort, need author or key in hibernate1
 Warning--to sort, need author or key in hibernate2
@@ -17,45 +19,52 @@ Warning--to sort, need author or key in angular-lifecycle
 Warning--to sort, need author or key in angular-routes
 Warning--to sort, need author or key in angular-td-forms
 Warning--to sort, need author or key in spring-boot-pros-cons
-You've used 14 entries,
+Warning--to sort, need author or key in spring-boot-code-structure
+Warning--to sort, need author or key in spring-boot-initializr
+Warning--to sort, need author or key in spring-boot-deps
+Warning--to sort, need author or key in spring-boot-app-class
+Warning--to sort, need author or key in rest-api
+Warning--to sort, need author or key in api-endpoint
+Warning--to sort, need author or key in spring-boot-docs
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            542 strings with 5601 characters,
-and the built_in function-call counts, 2330 in all, are:
-= -- 220
-> -- 26
+            567 strings with 6695 characters,
+and the built_in function-call counts, 3741 in all, are:
+= -- 351
+> -- 35
 < -- 0
-+ -- 19
++ -- 28
 - -- 4
-* -- 74
-:= -- 289
-add.period$ -- 30
-call.type$ -- 14
-change.case$ -- 44
+* -- 119
+:= -- 436
+add.period$ -- 46
+call.type$ -- 23
+change.case$ -- 69
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 99
-empty$ -- 313
+cite$ -- 44
+duplicate$ -- 162
+empty$ -- 520
 format.name$ -- 4
-if$ -- 564
+if$ -- 920
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 23
 missing$ -- 0
-newline$ -- 61
+newline$ -- 95
 num.names$ -- 4
-pop$ -- 107
+pop$ -- 181
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 48
 quote$ -- 0
-skip$ -- 109
+skip$ -- 183
 stack$ -- 0
-substring$ -- 71
-swap$ -- 13
+substring$ -- 116
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 12
+type$ -- 92
+warning$ -- 21
 while$ -- 4
-width$ -- 16
-write$ -- 106
-(There were 12 warnings)
+width$ -- 25
+write$ -- 165
+(There were 21 warnings)
