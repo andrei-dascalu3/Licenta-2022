@@ -22,7 +22,7 @@
 \subsection{Particularități}
 Motivul alegerii Angular pe partea de front-end este reprezentat de o serie de caracteristici.
 
-Un astfel de motiv este \textit{arhitectura bazată pe componenta}, fiind astfel o formă de programare orientată pe obiect. Utilizatorul crează în mod uzual clase corespunzătoare componentelor ce conțin și un șablon HTML (\textit{eng.} HTML template). Pentru simplificare, Angular oferă și opțiunea de "injectare" a serviciilor \textit{custom} sau \textit{in-built} într-o componentă ce utilizează aceste funcționalități. În acest fel, utilizatorul poate reutiliza, înlocui, modifica componente în diverse locuri, obținâându-se astfel un UI (User Interface) modularizat.
+Un astfel de motiv este \textit{arhitectura bazată pe componente}, fiind astfel o formă de programare orientată pe obiect. Utilizatorul crează în mod uzual clase corespunzătoare componentelor ce conțin și un șablon HTML (\textit{eng.} HTML template). Pentru simplificare, Angular oferă și opțiunea de "injectare" a serviciilor \textit{custom} sau \textit{in-built} într-o componentă ce utilizează aceste funcționalități. În acest fel, utilizatorul poate reutiliza, înlocui, modifica componente în diverse locuri, obținându-se astfel un UI (User Interface) modularizat.
 
 Un alt motiv este modul de încărcare a paginii web. Angular folosește \textit{lazy loading} ce permite încărcarea instantanee a website-urilor, prin afișarea doar a componentelor cerute și necesare utilizatorului, în timp ce celelalte sunt pregătite în fundal pentru alte eventualități.
 
@@ -35,11 +35,11 @@ Framework-ul are trei tipuri de \textit{dependency injections}:
 	\item Interface injection
 \end{enumerate}
 
-Din punct de vedere al arhitecturii, Angular este în totalitate un framework MVC (model-view-controller), după cum se observă în figura următoare.
+Din punct de vedere al arhitecturii, Angular poate fi considerat în general un framework MVVM (Model-View-ViewModel), după cum se observă în figura următoare.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Angular_Architecture.png}
+	\includegraphics[width=0.6\textwidth]{Angular_Architecture.png}
 	\caption{Arhitectura Angular \cite{angular-architecture-diagram}}
 \end{figure}
 
@@ -53,14 +53,14 @@ Din punct de vedere al arhitecturii, Angular este în totalitate un framework MV
 procesare în loturi puternică, tranzacții cu baza de date și o varietate de instrumente de dezvoltare.
 
 \subsection{Scurt istoric}
-Framework-ul \textit{Spring} a fost creat în 2004 pentru a simplifica dezvoltarea programelor pe partea de server. În aprilie 2014 a fost lansat Spring boot 1.0.0 în urma unor cereri din partea programatarilor de a configura serviciile de web container într-un container spring din metoda principală. În decembrie 2016 a fost lansat Spring Boot 1.3 ulterior trecerii framework-ului Spring de la versiunea 4.1 la 4.2 și includea sprinjin pentru fisiere JAR complet executabile, noi utilitare spring-boot-dev și auto-configurare pentru tehnologii de caching. 
+Framework-ul \textit{Spring} a fost creat în 2004 pentru a simplifica dezvoltarea programelor pe partea de server. În aprilie 2014 a fost lansat Spring boot 1.0.0 în urma unor cereri din partea programatorilor de a configura serviciile de web container într-un container spring din metoda principală. În decembrie 2016 a fost lansat Spring Boot 1.3 ulterior trecerii framework-ului Spring de la versiunea 4.1 la 4.2 și includea sprinjin pentru fisiere JAR complet executabile, noi utilitare spring-boot-dev și auto-configurare pentru tehnologii de caching. 
 
 \subsection{Motivație}
 Spring Boot este bazat pe Java, unul dintre cele mai populare limbaje de programare. Framework-ul are o comunitate vastă de utilizatori cu diverse materiale și cursuri.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Spring-ranking.png}
+	\includegraphics[width=0.6\textwidth]{Spring-ranking.png}
 	\caption{\cite{spring-popularity}}
 \end{figure}
 
@@ -83,9 +83,16 @@ Versiunea de Java este 11.
 Versiunea de Spring Boot este 2.7.6.
 
 \section{MySQL}
-\subsection{Baza de date}
 
+\begin{figure}[H]
+	\includegraphics[width=0.3\textwidth, left]{mysql-logo.png}
+%	\caption{\url{https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png}}
+\end{figure}
 
+MySQL este cea mai populară bază de date open-source, fiind o soluție adoptată de aplicații des folosite precum Facebook, Twitter, Netflix \cite{about-mysql}. Este un sistem de gestionare a bazelor de date relaționale (RDMS) de tipul client/server care include un server SQL cu multiple fire de execuție (multi-threaded), diverse librării și API-uri.
 
-\section{Resurse externe}
-Datele necesare dezvoltării și testării aplicației printre care se numără studenții, profesorii, preferințele, propunerile (tematici generale sau proiecte particularizate) au fost generate cu ajutorul API-ului \textit{Mockaroo}.
+\subsection{Avantaje}
+
+MySQL este tehnologia aleasă pentru stocarea datelor datorită fiabilității și scalabilității sale, precum și funcționalităților variate. De asemenea, integrarea cu alte tehnologii precum Spring Boot are loc ușor datorită librăriilor și soluțiilor unei comunități extinse de utilizatori.
+
+A fost aleasă o bază de date relațională pentru a asigura consistența datelor, luând în calcul numărul mare de preferințe al studenților ce trebuie procesate.

@@ -31,6 +31,11 @@ Angular - using angular routes in a single-page application.
 Angular - what is angular?
 \newblock \url{https://angular.io/guide/what-is-angular}.
 
+\bibitem{spring-security}
+Getting started | spring security and angular.
+\newblock
+  \url{https://spring.io/guides/tutorials/spring-security-and-angular-js/}.
+
 \bibitem{angular-history}
 The history of angular. the past, present, and future of… | by dave gavigan |
   the startup lab | medium.
@@ -45,6 +50,15 @@ How to design a web application: Software architecture 101.
 \bibitem{angular-stats}
 How to use angular development in 2022.
 \newblock \url{https://www.moveoapps.com/blog/how-to-use-angular-development/}.
+
+\bibitem{jpa-repository}
+Introduction to spring data jpa | baeldung.
+\newblock
+  \url{https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa}.
+
+\bibitem{jwt}
+Json web token introduction - jwt.io.
+\newblock \url{https://jwt.io/introduction}.
 
 \bibitem{spring-boot-pros-cons}
 Key advantages and disadvantages of using spring boot.
@@ -85,6 +99,10 @@ What is an api endpoint? | smartbear software resources.
 \bibitem{hibernate1}
 What is hibernate? definition from theserverside.
 \newblock \url{https://www.theserverside.com/definition/Hibernate}.
+
+\bibitem{about-mysql}
+What is mysql? | oracle.
+\newblock \url{https://www.oracle.com/mysql/what-is-mysql/}.
 
 \bibitem{sql1}
 When to use sql vs. nosql.

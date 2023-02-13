@@ -10,6 +10,7 @@ Warning--to sort, need author or key in angular-history
 Warning--to sort, need author or key in angular-stats
 Warning--to sort, need author or key in angular-architecture-diagram
 Warning--to sort, need author or key in spring-popularity
+Warning--to sort, need author or key in about-mysql
 Warning--to sort, need author or key in sql1
 Warning--to sort, need author or key in hibernate1
 Warning--to sort, need author or key in hibernate2
@@ -26,45 +27,48 @@ Warning--to sort, need author or key in spring-boot-app-class
 Warning--to sort, need author or key in rest-api
 Warning--to sort, need author or key in api-endpoint
 Warning--to sort, need author or key in spring-boot-docs
-You've used 23 entries,
+Warning--to sort, need author or key in jpa-repository
+Warning--to sort, need author or key in jwt
+Warning--to sort, need author or key in spring-security
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            567 strings with 6695 characters,
-and the built_in function-call counts, 3741 in all, are:
-= -- 351
-> -- 35
+            579 strings with 7111 characters,
+and the built_in function-call counts, 4377 in all, are:
+= -- 411
+> -- 39
 < -- 0
-+ -- 28
++ -- 32
 - -- 4
-* -- 119
-:= -- 436
-add.period$ -- 46
-call.type$ -- 23
-change.case$ -- 69
+* -- 139
+:= -- 504
+add.period$ -- 54
+call.type$ -- 27
+change.case$ -- 81
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 162
-empty$ -- 520
+cite$ -- 52
+duplicate$ -- 190
+empty$ -- 612
 format.name$ -- 4
-if$ -- 920
+if$ -- 1080
 int.to.chr$ -- 0
-int.to.str$ -- 23
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 95
+newline$ -- 111
 num.names$ -- 4
-pop$ -- 181
+pop$ -- 213
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 56
 quote$ -- 0
-skip$ -- 183
+skip$ -- 215
 stack$ -- 0
-substring$ -- 116
-swap$ -- 22
+substring$ -- 136
+swap$ -- 26
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
-warning$ -- 21
+type$ -- 108
+warning$ -- 25
 while$ -- 4
-width$ -- 25
-write$ -- 165
-(There were 21 warnings)
+width$ -- 29
+write$ -- 193
+(There were 25 warnings)

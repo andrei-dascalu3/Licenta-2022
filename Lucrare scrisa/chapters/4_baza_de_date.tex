@@ -33,14 +33,14 @@ Cei mai mulți utilizatori au rolul \textbf{ROLE\_USER}, un rol default. Acest l
 
 \subsubsection{Tipuri}
 
-\textbf{Profesorii} pot crea și actualiza propuneri (en. proposals) pentru teza de licență. Aceste propuneri pot fi \textit{project} sau \textit{topic}, detalierea acestora urmând a fi făcută ulterior. De asemenea, aceștia pot încheia acorduri (en. accords) cu anumiți studenți pentru unele dintre propunerile lor. Acest lucru le permite studenților să nu mai participe la algoritmul de asignare, fiind deja repartizați profesorilor respectivi.
+\textbf{Profesorii} pot crea și actualiza propuneri (en. proposals) pentru teza de licență. Aceste propuneri pot fi \textit{project} sau \textit{topic}, detalierea acestora urmând a fi făcută ulterior. De asemenea, aceștia pot încheia acorduri (accords) cu anumiți studenți pentru unele dintre propunerile lor. Acest lucru le permite studenților să nu mai participe la algoritmul de asignare, fiind deja repartizați profesorilor respectivi.
 
-\textbf{Studenții} pot crea și actualiza preferințe (en. preferences) într-o anumită ierarhie a lor. Așadar, categorisirea utilizatorilor în profesori și studenți are unicul scop de a diferenția interfața în funcție de funcționalitățile specifice tipurilor acestora.
+\textbf{Studenții} pot crea și actualiza preferințe (preferences) într-o anumită ierarhie a lor. Așadar, categorisirea utilizatorilor în profesori și studenți are unicul scop de a diferenția interfața în funcție de funcționalitățile specifice tipurilor acestora.
 
 
 \subsection{ROLE\_ADMIN}
 
-Există în plus un număr restrâns de utilizatori care au rolul de administrator, \textbf{ROLE\_ADMIN}. Aceștia au dreptul de a gestiona conturile participanților, mai precis de a crea, actualiza și elimina utilizatorilor. De asemenea, administratorii au opțiunea de a impune anumite limite în cadrul aplicației cum ar fi o limită a propunerilor pentru profesori și o limită a preferințelor pentru elevi.
+Există în plus un număr restrâns de utilizatori care au rolul de administrator, \textbf{ROLE\_ADMIN}. Aceștia au dreptul de a gestiona conturile participanților, mai precis de a crea sau elimina utilizatori.
 
 \section{Preferințele}
 
@@ -60,7 +60,7 @@ Aceste relații între studenți și tezele propuse vor constitui datele de intr
 
 \section{Propunerile}
 
-În cazul propunerilor, la nivel teoretic acestea pot fi de două tipuri, proiect (en. project) sau temă (en. topic). Diferența constă în faptul că un proiect este o propunere mai concisă, cu o descriere exactă a lucrării așteptate, fie ea una de cercetare sau o aplicație propriu-zisă, iar un proiect nu poate fi ales și realizat decât de către o singură persoană.
+În cazul propunerilor, la nivel teoretic acestea pot fi de două tipuri, proiect (project) sau temă (topic). Diferența constă în faptul că un proiect este o propunere mai concisă, cu o descriere exactă a lucrării așteptate, fie ea una de cercetare sau o aplicație propriu-zisă, iar un proiect nu poate fi ales și realizat decât de către o singură persoană.
 Un astfel de exemplu ar putea fi \textit{„Realizare unei aplicații de reconoaștere facială utilizând metode de machine learning”}, cu precizările și restricțiile aferente.
 
 Pe de altă parte, o temă este o descriere pe larg a anumitor particularități ale unui proiect de cele mai multe ori dintr-un anumit domeniu de specialitate. La fel ca un proiect specific, o temă poate cuprinde atât lucrări general teoretice, cât și practice, studentul fiind nevoit să stabilească împreună cu profesorul său coordonator o teză concretă. Însă o propunere de acest fel poate avea un număr de locuri disponibile mai mare de 1, deoarece mai mulți studenți pot urma direcții diferite asupra tematicii propuse. Spre exemplu, profesorul poate propune o temă de „Algoritmi genetici și optimizarea acestora” care poate fi repartizată unor 3 studenți care stabilesc în mod distinct cu profesorul de licență lucrările lor.

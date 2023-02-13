@@ -17,11 +17,10 @@
 \contentsline {section}{\numberline {3.2}Spring Boot}{11}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Scurt istoric}{12}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Motivație}{12}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Particularități}{13}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Particularități}{12}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Detalii}{13}{subsection.3.2.4}%
 \contentsline {section}{\numberline {3.3}MySQL}{13}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Baza de date}{13}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Resurse externe}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.1}Avantaje}{13}{subsection.3.3.1}%
 \contentsline {chapter}{\numberline {4}Baza de date}{14}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Modelarea utilizatorilor}{15}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}ROLE\_USER}{16}{subsection.4.1.1}%
@@ -75,6 +74,6 @@
 \contentsline {subsection}{\numberline {7.4.2}Algoritmul}{50}{subsection.7.4.2}%
 \contentsline {subsection}{\numberline {7.4.3}Procesarea rezultatului}{51}{subsection.7.4.3}%
 \contentsline {section}{\numberline {7.5}Precizări}{53}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Indicații de utilizare}{54}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Scenarii de utilizare}{54}{chapter.8}%
 \contentsline {chapter}{Concluzii}{56}{chapter*.10}%
-\contentsline {chapter}{Bibliografie}{57}{chapter*.11}%
+\contentsline {chapter}{Bibliografie}{58}{chapter*.12}%
