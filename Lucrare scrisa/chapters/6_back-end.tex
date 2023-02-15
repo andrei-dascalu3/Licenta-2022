@@ -16,7 +16,7 @@ Datorită modului simplu și convenabil, proiectul a fost inițializat cu Spring
 
 O dependență în Spring Boot poate fi comparată cu o librărie deoarece oferă anumite funcționalități. Gestionarea acestora de către programator este prin intermedul fișierului \texttt{pom.xml} (pentru un proiect Maven), odată adăugate, acestea sunt descărcate din \textit{Maven Central} (un \textit{repository} oferit de către comunitatea Maven) și stocate local în directorul \texttt{.m2} \cite{spring-boot-deps}.
 
-Partea de back-end a proiectului \thesistitle utilizează în primul rând dependențe necesare lucrului cu baza de date. \texttt{Spring Data JPA} permite persistența datelor cu ajutorul Spring Data și Hibernate, pe când \texttt{MySQL Driver} asigură conexiunea cu baza de date MySQL. Pe lângă \texttt{Spring Web} necesară creării de servicii pentru o aplicație web, back-end-ul beneficiază și de \texttt{Spring Boot DevTools} care facilitează dezvoltarea și automatizează restart-ul aplicației. Pentru partea de securitate a aplicației a fost utilizată atât \texttt{Spring Security} pentru a crea o autentificare și o autorizare personalizate, cât și \texttt{Java JWT} pentru procesarea cheilor JWT.
+Partea de back-end a proiectului \thesistitle{} utilizează în primul rând dependențe necesare lucrului cu baza de date. \texttt{Spring Data JPA} permite persistența datelor cu ajutorul Spring Data și Hibernate, pe când \texttt{MySQL Driver} asigură conexiunea cu baza de date MySQL. Pe lângă \texttt{Spring Web} necesară creării de servicii pentru o aplicație web, back-end-ul beneficiază și de \texttt{Spring Boot DevTools} care facilitează dezvoltarea și automatizează restart-ul aplicației. Pentru partea de securitate a aplicației a fost utilizată atât \texttt{Spring Security} pentru a crea o autentificare și o autorizare personalizate, cât și \texttt{Java JWT} pentru procesarea cheilor JWT.
 
 Pe lângă aceste dependețe, există și altele precum \texttt{Lombok} pentru generarea codului de tipul \textit{boilerplate} (getters, setters etc.) sau \texttt{Java Faker} pentru generarea datelor entităților.
 
@@ -38,7 +38,7 @@ Imaginea următoare evidențiază maniera de tratare a interacțiunii cu clientu
 	\caption{Arhitectura de flux a Spring Boot}
 \end{figure}
 
-Clientul efectuează un request HTTP care este gestionat în primă instanță de \textbf{controller} care utilizează \textbf{servicii} necesare tratării request-ului. În acestea are loc logica operațiilor asupra înregistrărilor din baza de date cu ajutorul claselor \textbf{model} și prin intermediul unor clase \textbf{repository}. Informația de la client și către acesta are loc de cele mai multe ori sub forma unor obiecte DTO (Data Transfer Object) cinvertite în JSON în body-ul request-ului. Un exemplu de clasă DTO este cea a propunerilor, \texttt{ProposalDto}, ce conține strict informațiile de interes.
+Clientul efectuează un request HTTP care este gestionat în primă instanță de \textbf{controller} care utilizează \textbf{servicii} necesare tratării request-ului. În acestea are loc logica operațiilor asupra înregistrărilor din baza de date cu ajutorul claselor \textbf{model} și prin intermediul unor clase \textbf{repository}. Informația de la client și către acesta are loc de cele mai multe ori sub forma unor obiecte DTO (Data Transfer Object) convertite în JSON în body-ul request-ului. Un exemplu de clasă DTO este cea a propunerilor, \texttt{ProposalDto}, ce conține strict informațiile de interes.
 
 \begin{figure}[H]
 	\centering
@@ -78,7 +78,7 @@ Pentru fiecare entitate modelată în cadrul aplicației există o clasă \texti
 	\caption{Repository pentru un acord}
 \end{figure}
 
-Clasa \texttt{AccordRepository} conține de exemplu patru metode de căutare a acordurilor, în funcție de diferiți parametri. Metodele pot returna și dacă există o numită înregistrare, precum și numărul de anumite înregistrări. Datele sunt salvate sau actualizate cu metoda \texttt{save} ce primește ca argument un obiect entitate, în cazul în care id-ul este null, este introdusă o nouă înregistrare, altfel este modificată cea cu id-ul respectiv.
+Clasa \texttt{AccordRepository} conține de exemplu patru metode de căutare a acordurilor, în funcție de diferiți parametri. Metodele pot returna și dacă există o numită înregistrare, precum și numărul de anumite înregistrări. Datele sunt salvate sau actualizate cu metoda \texttt{save()} ce primește ca argument un obiect entitate, în cazul în care id-ul este \textit{null}, este introdusă o nouă înregistrare, altfel este modificată cea cu id-ul respectiv.
 
 \section{Serviciile}
 
@@ -112,7 +112,7 @@ Aceasta obține un obiect de tipul \texttt{User} cu un username dat și în plus
 
 În cazul clasei \texttt{UserController}, metoda \texttt{getProfessors} este apelată de fiecare dată când este primit un request de tipul GET la endpoint-ul \texttt{"/professors"}, lucru evidențiat de adnotarea premergătoare definiției. Răspunsul HTTP este reprezentat de un obiect de tipul \texttt{ResponseEntity} cu \textit{status code} 200 (cerere efectuată cu succes) și având în \textit{body} o listă de obiecte de tipul \texttt{UserDto}, după cum a fost precizat anterior.
 
-Metoda \texttt{saveUser} primește ca parametru un utilizator transmis prin body-ul request-ului POST, lucru ce trebuie specificat prin adnotarea \texttt{@RequestBody}.
+Metoda \texttt{saveUser} primește ca parametru un utilizator transmis prin body-ul request-ului POST, lucru ce trebuie specificat prin adnotarea \texttt{@RequestBody}. Răspunsul este obiectul salvat, cu \textit{status code} 201 (created).
 
 \section{Securitatea}
 
@@ -126,7 +126,7 @@ Securitatea aplicației este dezvoltată de pachetul \texttt{security} care con�
 
 Metoda primește ca parametru o variabilă \texttt{http} de tipul \texttt{HttpSecurity} și care permite configurarea contextului abordat. Utilizând un sistem bazat pe chei JWT (JSON Web Token), aplicația de back-end nu trebuie să creeze o sesiune pentru fiecare utilizator.
 
-JWT este un standard care definește un mod compact de trasmitere sigură a informațiilor între aplicații sub forma unor obiecte JSON, putând fi considerată o semnătură digitală a utilizatorului. Un astfel de token are trei părți separate de punct: header, payload și semnătură. Header-ul conține tipul token-ului, adică JWT, și algoritmul folosit pentru semnarea acestuia, aplicația \thesistitle utilizează \textit{HMAC256}. Payload-ul conține pretențiile (claims) cum ar fi rolurile deținute, dacă utilizatorul este profesor sau nu și altele. Semnătura este obținută prin criptarea primelor două părți cu algoritmul specificat și un șir de caractere secret știut doar de către back-end \cite{jwt}. Fiecare token are un termen de validitate pentru a indica perioada în care utilizatorul este autentificat.
+JWT este un standard care definește un mod compact de transmitere sigură a informațiilor între aplicații sub forma unor obiecte JSON, putând fi considerată o semnătură digitală a utilizatorului. Un astfel de token are trei părți separate de caracterul punct: header, payload și semnătură. Header-ul conține tipul token-ului, adică JWT, și algoritmul folosit pentru semnarea acestuia, aplicația \thesistitle{} utilizează \textit{HMAC256}. Payload-ul conține pretențiile (claims) cum ar fi rolurile deținute, dacă utilizatorul este profesor sau nu și altele. Semnătura este obținută prin criptarea primelor două părți cu algoritmul specificat și un șir de caractere secret știut doar de către back-end \cite{jwt}. Fiecare token are un termen de validitate pentru a indica perioada în care utilizatorul este autentificat.
 
 De asemenea, request-urile din partea clientului sunt autorizate în funcție de anumite filtre, implementându-se în acest scop unul pentru autentificare în primă instanță și unul pentru autorizare.
 

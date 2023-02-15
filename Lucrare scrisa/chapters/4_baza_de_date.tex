@@ -33,7 +33,7 @@ Cei mai mulți utilizatori au rolul \textbf{ROLE\_USER}, un rol default. Acest l
 
 \subsubsection{Tipuri}
 
-\textbf{Profesorii} pot crea și actualiza propuneri (en. proposals) pentru teza de licență. Aceste propuneri pot fi \textit{project} sau \textit{topic}, detalierea acestora urmând a fi făcută ulterior. De asemenea, aceștia pot încheia acorduri (accords) cu anumiți studenți pentru unele dintre propunerile lor. Acest lucru le permite studenților să nu mai participe la algoritmul de asignare, fiind deja repartizați profesorilor respectivi.
+\textbf{Profesorii} pot crea și actualiza propuneri (proposals) pentru teza de licență. Aceste propuneri pot fi \textit{project} sau \textit{topic}, detalierea acestora urmând a fi făcută ulterior. De asemenea, aceștia pot încheia acorduri (accords) cu anumiți studenți pentru unele dintre propunerile lor. Acest lucru le permite studenților să nu mai participe la algoritmul de asignare, fiind deja repartizați profesorilor respectivi.
 
 \textbf{Studenții} pot crea și actualiza preferințe (preferences) într-o anumită ierarhie a lor. Așadar, categorisirea utilizatorilor în profesori și studenți are unicul scop de a diferenția interfața în funcție de funcționalitățile specifice tipurilor acestora.
 
@@ -54,7 +54,7 @@ Preferințele sunt modelate simplu, reprezentând în sine o relație între ent
 
 După cum se poate observa în tabela \textbf{\texttt{preference}}, acestea cuprind un \texttt{id\_stud} ce face legătura cu tabela \textbf{\texttt{student}} și un \texttt{id\_prop} ce face legătura cu tabela \textbf{\texttt{proposals}}.
 
-În plus, există un câmp \texttt{rating} care este de tipul BIGINT și indică invers proporțional importanța preferinței, mai exact o preferință cu un $\texttt{level} = 0 $ este pe primul loc în ierarhie. Este de asemenea important de precizat că mai multe preferințe ale unui student pot avea același rating, lucru ce permite o mai bună satisfiabilitate.
+În plus, există un câmp \texttt{rating} care este de tipul BIGINT și indică proporțional importanța preferinței, mai exact o preferință cu un $\texttt{rating} = 100 $ este pe primul loc în ierarhie. Este de asemenea important de precizat că mai multe preferințe ale unui student pot avea același rating, lucru ce permite o mai bună satisfiabilitate.
 
 Aceste relații între studenți și tezele propuse vor constitui datele de intrare pentru algoritm, fiind astfel de o importanță semnificativă în cadrul aplicației.
 
@@ -88,7 +88,7 @@ Cu toate acestea, din motive de simplificare și optimizare, la nivelul de schem
 
 \section{Lucrul pe partea de back-end cu baza de date}
 
-Partea de back-end a aplicației, fiind implementată cu ajutorul Spring Boot, interacționează cu baza de date prin intermediu Hibernate, alegere făcută luând în considerare o serie de avantaje.
+Partea de back-end a aplicației, fiind implementată cu ajutorul Spring Boot, interacționează cu baza de date prin intermediul Hibernate, alegere făcută luând în considerare o serie de avantaje.
 
 \subsection{Hibernate}
 
@@ -115,7 +115,7 @@ Framework-ul precizat corelează clase din limbajul Java tabelelor din serverul 
 
 \subsubsection{Avantaje ale Hibernate}
 
-Hibernate este în primul rând un framework \textit{open source} și \textit{lightweight}, lucru ce mi-a permis familiarizare cu acesta și ușoara configurare a lui.
+Hibernate este în primul rând un framework \textit{open source} și \textit{lightweight}, lucru ce a permis familiarizare cu acesta și ușoara configurare a lui.
 
 În al doilea rând, Hibernate este un framework relativ rapid deoarece beneficiază de un cache intern, structurat pe două niveluri, primul nivel fiind folosit în mod normal \cite{hibernate2}.
 
@@ -123,7 +123,7 @@ De asemenea, tehnologia optată utilizează o versiune orientată obiect a SQL-u
 
 În final, Hibernate oferă posibilitatea de a crea și popula tabelele din baza de date în mod automat, direct din cod.
 
-Imaginea următoare ilustrează specificațiile din fișierul \texttt{application.properties} specific oricărui proiect Maven, în care sunt este configurată utilizarea framework-ului Hibernate. Acest lucru include date de conectare la baza de date, modul de conectare, dialectul SQL folosit etc.
+Imaginea următoare ilustrează specificațiile din fișierul \texttt{application.properties} specific oricărui proiect Maven, în care este configurată utilizarea framework-ului Hibernate. Acest lucru include date de conectare la baza de date, modul de conectare, dialectul SQL folosit etc.
 
 \begin{figure}[H]
 	\centering
@@ -154,7 +154,7 @@ Configurarea parametrilor necesari generării datelor este realizată prin inter
 Aceasta conține parametri precum numărul de utilizatori (\texttt{userCount}), numărul de administratori (\texttt{adminCount}), probabilitatea ca un utilizator să fie profesor 
 (\texttt{professorProb}) etc.
 
-Primul pas este generarea utilizatorilor. Pentru această etapă a fost folosită clasa \texttt{Faker} în obținerea unor nume aleatorii. Parola tuturor a fost setată aceeași pentru simplificare, iar primi \texttt{adminCount} utilizatori primesc \texttt{ROLE\_ADMIN} pe lângă \texttt{ROLE\_USER}.
+Primul pas este generarea utilizatorilor. Pentru această etapă a fost folosită clasa \texttt{Faker} în obținerea unor nume aleatorii. Parola tuturor a fost setată aceeași pentru simplificare, iar primii \texttt{adminCount} utilizatori primesc \texttt{ROLE\_ADMIN} pe lângă \texttt{ROLE\_USER}.
 
 Cel de al doilea pas este generarea propunerilor pentru fiecare profesor ales dintre utilizatori conform unei probabilități. Se calculează întâi un număr de locuri în corelație cu numărul de studenți ce trebuie acoperit de fiecare profesor pentru a putea da șansa unei repartizări a tuturor studenților. De menționat că tipul propunerilor este tot ales aleatoriu.
 

@@ -100,7 +100,7 @@ Pagina \textbf{My proposals} cuprinde propunerile create de profesor. Acesta poa
 
 Înainte de a prezenta implementarea generală a părții de front-end, este necesară explicarea alcătuirii unei componente Angular.
 
-Componenetele sunt elementele de bază ale interfeței unei aplicații Angular, o astfel de aplicație conține un arbore de componente \cite{component1}. Acestea sunt de fapt din puct de vedere tehnic un tip de directive, întotdeauna asociate cu un template.
+Componenetele sunt elementele de bază ale interfeței unei aplicații Angular, o astfel de aplicație conține un arbore de componente \cite{component1}. Acestea sunt de fapt din punct de vedere tehnic un tip de directive, întotdeauna asociate cu un template.
 
 O componentă este alcătuită dintr-un fișier Typescript ce modelează componenta prin intermediul unei clase, un \textit{template} (șablon) ce descrie cum este construită (\textit{rendered}) aceasta și eventual un fișiser CSS care indică detalii de stilizare \cite{angular-basic}.
 
@@ -122,7 +122,7 @@ Se poate observa cum în metoda \texttt{ngOnInit} a componentei \texttt{UserList
 
 Angular este utilizat în principal pentru crearea de aplicații \textit{single-page}, adică toate funcționalitățile există într-o singură pagină HTML. Browser-ul încarcă doar părțile (componentele) necesare utilizatorului, fără a încărca o nouă pagină. De aceea, utilizatorul navighează prin intermediul rutelor predeterminate \cite{angular-routes}. Acestea permit afișarea unor view-uri specifice în funcție de calea URL. Pentru a dispune de această funcționalitate, trebuie importat modulul \texttt{RouterModule} din pachetul \texttt{@angular/router}.
 
-Rutele sunt stabilite în acest caz în modulul \texttt{AppRoutingModule}, iar definiția unei rute este din punct de vedere tehnic un obiect JavaScript \cite{angular-routes}. Fiecare are măcar proprietățile \texttt{path} ce indică calea URL și \texttt{component}, numele componentei afișate. Definirea este realizată în manieră ierarhică, fiecare rută putând avea o listă de descendenți. Spre exemplu, în imaginea următoare se poate vedea rutele necesare vizualizării propunerilor, a detaliilor unui anumit element, adăugarea și modificarea unei propuneri.
+Rutele sunt stabilite în acest caz în modulul \texttt{AppRoutingModule}, iar definiția unei rute este din punct de vedere tehnic un obiect JavaScript \cite{angular-routes}. Fiecare are măcar proprietățile \texttt{path} ce indică calea URL și \texttt{component}, numele componentei afișate. Definirea este realizată în manieră ierarhică, fiecare rută putând avea o listă de descendenți. Spre exemplu, în imaginea următoare se pot vedea rutele necesare vizualizării propunerilor, a detaliilor unui anumit element, adăugarea și modificarea unei propuneri.
 
 \begin{figure}[H]
 	\centering
@@ -144,11 +144,10 @@ Rutele sunt stabilite în acest caz în modulul \texttt{AppRoutingModule}, iar d
 
 Acesta utilizează la rândul său serviciile \texttt{HttpClient} pentru comunicarea cu back-end-ul prin request-uri HTML și \texttt{Router} pentru navigare. Astfel, în metoda \texttt{login} este efectuat un request \texttt{POST}, cu \textit{body} de tipul \texttt{x-www-form-urlencoded} (specificat în \textit{headers}) conținând câmpurile \textit{username} și \textit{password} cu valorile aferente. Rezultatul acestui request este un obiect de tipul \textit{AuthResponseData} ce conține în special câmpul \textit{accessToken}. Acest token este un șir de caracter reprezentând un JWT (JSON Web Token) și este unic fiecărui utilizator și necesar pentru efectuarea cu succes a oricărui request ulterior.
 
-Un alt detaliu este reprezentat de variabila \texttt{userData}, de tipul \textit{BehaviourSubject<UserData>}, care permite emiterea unor evenimente pentru a indica autentificarea și dezautentificarea utilizatorului.
+Un alt detaliu este reprezentat de variabila \texttt{userData}, de tipul \textit{BehaviourSubject$<$UserData$>$}, care permite emiterea unor evenimente pentru a indica autentificarea și dezautentificarea utilizatorului.
 
 \subsubsection{Resolver}
-
-Un categorie particulară a serviciilor este cea de \textbf{Resolvers}. Un astfel de serviciu implementează interfața \textit{Resolve} și este utilizat pentru operații premergătoare încărcării unei componente, iar specificarea acestui are loc în \texttt{AppRoutingModule}. În cazul propunerilor, prin intermediu serviciului \texttt{ProposalService} este obținută o listă completă a propunerilor profesorului autentificat.
+O categorie particulară a serviciilor este cea de \textbf{Resolvers}. Un astfel de serviciu implementează interfața \textit{Resolve} și este utilizat pentru operații premergătoare încărcării unei componente, iar specificarea acestui are loc în \texttt{AppRoutingModule}. În cazul propunerilor, prin intermediu serviciului \texttt{ProposalService} este obținută o listă completă a propunerilor profesorului autentificat.
 
 \begin{figure}[H]
 	\centering

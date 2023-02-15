@@ -1,6 +1,6 @@
 \chapter{Algoritmul de repartizare}
 
-Problema pe care își propune această aplicație să o rezolve este o instanță a problemei asignării sau problema atribuirii (\textit{assignment problem}). Este de precizat că cele două nume vor fi folosite interschimbabil în secțiunile următoare. În cazul de față, instanța este reprezentată de o mulțime de studenți, fiecare cu o ordonare a unor prefereințe, și o mulțime a propunerilor profesorilor (proiecte sau tematici generale). Cerința este reapartizarea optimă a propunerilor către studenți în funcție de preferințele acestora.
+Problema pe care își propune această aplicație să o rezolve este o instanță a problemei asignării sau problema atribuirii (\textit{assignment problem}). Este de precizat că cele două nume vor fi folosite interschimbabil în secțiunile următoare. În cazul de față, instanța este reprezentată de o mulțime de studenți, fiecare cu o ordonare a unor preferințe, și o mulțime a propunerilor profesorilor (proiecte sau tematici generale). Cerința este repartizarea optimă a propunerilor către studenți în funcție de preferințele acestora.
 
 În literatura de specialitatea au fost descriși și dezvoltați diverși algoritmi de rezolvare a unei astfel de instanțe a problemei atribuirii. Algoritmul implementat de aplicația \thesistitle{} este unul din clasa de algoritmi de licitație (\textit{auction algorithms}), descris în lucrarea "Assignment Problem with Constraints" scrisă de către Ulrich Bauer, Facultatea de Informatică a Universității Tehcnice din München, 2005. Pentru a descrie coerent și cât mai clar logica acestui algoritm, în secțiunile următoare vor fi descrise problema atribuirii și similitudinile acesteia cu o problemă de flux, conceptele matematice ale algoritmilor propuși pentru rezolvare și pașii algoritmului implementat pentru instanța prezentă.
 
@@ -8,7 +8,7 @@ Problema pe care își propune această aplicație să o rezolve este o instanț
 
 Problema simetrică a asignării constă în două mulțimi $X$ și $Y$ de dimensiuni egale, o mulțime $E \subseteq X \times Y$ și o funcție de cost $c_{xy}$ pentru oricare pereche posibilă $(x, y) \in E$. Scopul este cuplarea oricărui element din $X$ cu un element din $Y$ ca la final costul total să fie minim \cite{assignment}.
 
-În contextul grafurilor, această problemă poate fi redusă la problema fluxului de cost minim într-un  graf bipartit $G=((X \bigcup Y,\ E)$ cu o funcție de cost $c_{xy},\ (x, y) \in E$, și capacitatea $u_xy = 1, \forall (x, y) \in E$. 
+În contextul grafurilor, această problemă poate fi redusă la problema fluxului de cost minim într-un  graf bipartit $G=((X \bigcup Y,\ E)$ cu o funcție de cost $c_{xy},\ (x, y) \in E$, și capacitatea $u_{xy} = 1, \forall (x, y) \in E$. 
 
 Expresia matematică a problemei \cite[p.~6]{assignment} este 
 \[ minimizarea \sum_{(i, j) \in E} c_{ij} x_{ij} \]
@@ -25,11 +25,11 @@ Important de precizat este că în acest caz, rating-ul total al preferințelor 
 
 \section{Algoritmul de licitație}
 
-Algoritmul de licitație este o metodă intuitivă ce rezolvă problema clasică a atribuirii (asignării), reușind de asemenea să depășească în performanță algoritmi similari, fiind în același timp potrivit pentru calculul în paralel \cite[p.~1]{auction}. Acest algoritm a fost propus de matematicianul Dimitri Bertsekas și este în sine o metodă euristică aplicată algoritmului \textit{push/relabel} pentru a îmbunătăți rezultatele practice \cite[p.~24]{assignment}, având în mod similar o complexitate de $\mathcal{O}(n m \log(n C))$ unde $n$ este numărul total de noduri ($|X|+|Y|$), $m$ este numărul de muchii $|E|E$, iar $C = max_{(i, j)}\{c_{ij}\}$ este maximul costurilor. 
+Algoritmul de licitație este o metodă intuitivă ce rezolvă problema clasică a atribuirii (asignării), reușind de asemenea să depășească în performanță algoritmi similari, fiind în același timp potrivit pentru calculul în paralel \cite[p.~1]{auction}. Acest algoritm a fost propus de matematicianul Dimitri Bertsekas și este în sine o metodă euristică aplicată algoritmului \textit{push/relabel} pentru a îmbunătăți rezultatele practice \cite[p.~24]{assignment}, având în mod similar o complexitate de $\mathcal{O}(n m \log(n C))$ unde $n$ este numărul total de noduri ($|X|+|Y|$), $m$ este numărul de muchii $|E|$, iar $C = max_{(i, j)}\{c_{ij}\}$ este maximul costurilor. 
 
 Algoritmul de licitație poate fi descris ca o licitație în viața reală. Elementele din mulțimea $X$, studenții, licitează pentru elementele din $Y$, lucrările propuse de profesori. Pentru un student $i$, propunerea $j$ este cea mai benfică dacă suma costului $c_{ij}$ și prețul $\pi(j)$ este minim, iar o propunere este atribuită studentului cu cea mai bună ofertă\cite{assignment}. Funcția $\pi$ este utilizată în pasul de reetichetare (\textit{relabel}) a unei propuneri.
 
-Pentru a permite finalizarea algoritmului, prețurile $\pi$ trebuie să crească cu o valoare $\epsilon$. Mai mult decât atât, Bertsekas a fost primul care a propus scalarea prin $\epsilon$ (\textit{$\epsilon$-scaling}) pentru a îmbunătăți performanța algoritmului în cazul instanțelor unde numărul de obiecte din $Y$ licitate este mai mic. În cazul în care $\epsilon$ este prea mic, poate apărea un "război al prețurilor" când este nevoie de o creștere mai substanțială a prețurilor, deci un număr mare de iterații, până anumiți studenți găsesc propuneri mai profitabile decât cele licitate. Soluția este execuția algoritmului începând cu $\epsilon$ inițializat cu cel mai mare cost al preferințelor ($C$) și scădereaa treptată a acestuia de la o iterație la alta.
+Pentru a permite finalizarea algoritmului, prețurile $\pi$ trebuie să crească cu o valoare $\epsilon$. Mai mult decât atât, Bertsekas a fost primul care a propus scalarea prin $\epsilon$ (\textit{$\epsilon$-scaling}) pentru a îmbunătăți performanța algoritmului în cazul instanțelor unde numărul de obiecte din $Y$ licitate este mai mic. În cazul în care $\epsilon$ este prea mic, poate apărea un "război al prețurilor" când este nevoie de o creștere mai substanțială a prețurilor, deci un număr mare de iterații, până anumiți studenți găsesc propuneri mai profitabile decât cele licitate. Soluția este execuția algoritmului începând cu $\epsilon$ inițializat cu cel mai mare cost al preferințelor ($C$) și scăderea treptată a acestuia de la o iterație la alta.
 
 Algoritmul de licitație poate fi corelat cu unul de calculare a unui flux de cost minim, cu un graf $G=(X \cup Y, E)$ unde $X$ reprezintă studenții, iar $Y$ propunerile. Este definită o nouă variabilă 
 $c_{ij}^\pi$ numită costul redus al muchiei $(i, j)$ din graful $G=(V, E)$ în raport cu funcția de preț $\pi: V \rightarrow \mathbb{R}_+$,\; $c_{ij}^\pi = c_{ij} - \pi(i) + \pi(j)$.
@@ -42,7 +42,7 @@ Un pas de licitație este numit \textit{double-push} deoarece este echivalent cu
 
 O primă abordare este transformarea problemei asimetrice într-una simetrică prin introducerea unor $|Y| - |X|$ noduri "virtuale" în mulțimea $X$, fiecare dintre ele conectat la toate nodurile din $Y$  cu câte un cost 0. Acest lucru poate rezulta însă la un graf dens din punct de vedere al muchiilor.
 
-O altă abordare, utilizată și în proiectul de față, este utilizarea unui arbore binar (\textit{binary heap}). De fiecare dată când este reetichetat (\textit{relabeled}) un nod care nu se află în heap, este introdus în heap și eliminat din acesta nodul cu cel mai mic preț. Dacă acest nod este atribuit, fluxul pe muchia respectivă devine 0. Utilizând un arbore binar, reetichetarea nodului are loc cu o complexitate de $\mathbb{O}(\log(|X|)$, iar accesarea nodului cu cel mai mic preț este imediată deoarece se află în vârf. Complexitatea generală a algoritmului crește la $\mathbb{O}(n m \log(n C) \log(|X|))$, care nu afectează mult însă performanța algoritmului.
+O altă abordare, utilizată și în proiectul de față, este utilizarea unui arbore binar (\textit{binary heap}). De fiecare dată când este reetichetat (\textit{relabeled}) un nod care nu se află în heap, este introdus în heap și eliminat din acesta nodul cu cel mai mic preț. Dacă acest nod este atribuit, fluxul pe muchia respectivă devine 0. Utilizând un arbore binar, reetichetarea nodului are loc cu o complexitate de $\mathcal{O}(\log(|X|)$, iar accesarea nodului cu cel mai mic preț este imediată deoarece se află în vârf. Complexitatea generală a algoritmului crește la $\mathcal{O}(n m \log(n C) \log(|X|))$, care nu afectează mult însă performanța algoritmului.
 
 \section{Pseudocod}
 
@@ -56,19 +56,19 @@ Algoritmii următori scriși în pseudocod și utilizați de aplicație au fost 
 		\State Fie $(i, j)$ și $(i, k)$ muchii astfel încât $c_{ij}^\pi$ să fie minim și $c_{ik}^\pi$ al doilea cel mai mic
 		\State $x_{ij} \gets 1$ //push 
 		\If{$j \notin H$} // $H$ este arborele binar (heap)
-			\State $H.put(\pi(j),\ j)$ //j este introdus în heap cu cheia prețul său actual
+			\State $H.put(\pi(j),\ j)$ // j este introdus în heap cu cheia prețul său actual
 			\If{$|X| > H.size()$}
 				\State $g \gets H.min()$
 				\State $H.removeMin()$
-				\If{$\exists f \in X$, $x_{fg} = 1$} //propunerea g este deja asignată unui student f
-					\State $x_{fg} \gets 0$ //push
+				\If{$\exists f \in X$, $x_{fg} = 1$} // propunerea g este deja asignată unui student f
+					\State $x_{fg} \gets 0$ // push
 				\EndIf
 			\EndIf
 		\EndIf
-		\If{$\exists h \in X$, $h \neq i$ și $x_{hj} = 1$} //propunerea j era deja atribuită unui alt student h
-			\State $x_{hj} \gets 0$ //push
+		\If{$\exists h \in X$, $h \neq i$ și $x_{hj} = 1$} // propunerea j era deja atribuită unui alt student h
+			\State $x_{hj} \gets 0$ // push
 		\EndIf
-		\State $\pi(j) \gets \pi(k) + c_{ik} - c_{ij} + \epsilon$ //relabel
+		\State $\pi(j) \gets \pi(k) + c_{ik} - c_{ij} + \epsilon$ // relabel
 	\end{algorithmic}
 \end{algorithm}
 
@@ -77,7 +77,7 @@ Algoritmii următori scriși în pseudocod și utilizați de aplicație au fost 
 \begin{algorithm}
 	\caption{$refine()$}
 	\begin{algorithmic}[1]
-		\State $\epsilon \gets \epsilon / \alpha$ //$\alpha$ este o constantă aleasă în mod euristic
+		\State $\epsilon \gets \epsilon / \alpha$ // $\alpha$ este o constantă aleasă în mod euristic
 		\ForAll{$(i, j) \in E$}
 			\State $x_{ij} \gets 0$
 		\EndFor
@@ -165,7 +165,7 @@ Soluția constă într-o variabilă de tipul \texttt{Map<Integer, Assignation>} 
 	\caption{Tipul Assignation}
 \end{figure}
 
-La finalul execuției algoritmului, există posibilitatea ca un număr de studenți să nu aibă proiecte atribuite în cazul în care aceștia nu au avut un număr de preferințe îndeajuns de mare. Dacă există o astfel de situație, se alege în mod aleatoriu un student dintre aceștia și îi este asignată o propunere dintre cele care nu au fost încă luate.
+La finalul execuției algoritmului, există posibilitatea ca un număr de studenți să nu aibă proiecte atribuite în cazul în care aceștia nu au avut un număr de preferințe îndeajuns de mare. Dacă există o astfel de situație, se alege în mod aleatoriu un student dintre aceștia și îi este asignată o propunere dintre cele care nu au fost încă luate până când toți studenții sunt repartizați.
 
 Rezultatul final este alcătuit în primul rând din studenții care au stabilit acorduri cu profesori pentru anumite proiecte, repartizările calculate de algoritm și repartizările ulterioare ale studenților neatribuiți.
 
